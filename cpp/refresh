@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+cd $(dirname $0)
+set -ex
+
+rm -rf fost
+mkdir fost
+cd fost
+cmake -G Xcode ../src
