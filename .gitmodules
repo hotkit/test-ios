@@ -1,0 +1,3 @@
+[submodule "fost-android-ndk"]
+	path = fost-android-ndk
+	url = git@github.com:KayEss/fost-android-ndk.git
