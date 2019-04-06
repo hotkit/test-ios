@@ -6,7 +6,7 @@
  */
 
 
-#include "iOS Test Runner-Bridging-Header.h"
+#import <Foundation/Foundation.h>
 #include <string>
 
 
@@ -16,6 +16,6 @@ namespace {
 
 }
 
-NSString * _Nonnull test_results() {
+extern "C" NSString * _Nonnull test_results() {
     return [NSString stringWithUTF8String:g_results.c_str()];
 }

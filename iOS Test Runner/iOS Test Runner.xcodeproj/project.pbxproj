@@ -12,8 +12,8 @@
 		CE58B8EF2255A13A002BD250 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE58B8ED2255A13A002BD250 /* Main.storyboard */; };
 		CE58B8F12255A13C002BD250 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE58B8F02255A13C002BD250 /* Assets.xcassets */; };
 		CE58B8F42255A13C002BD250 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE58B8F22255A13C002BD250 /* LaunchScreen.storyboard */; };
-		CE6D01F2225881EF00907F2B /* native.mm in Sources */ = {isa = PBXBuildFile; fileRef = CE6D01F1225881EF00907F2B /* native.mm */; };
-		CE6D023B225885A000907F2B /* libfost-core-d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE6D02352258856800907F2B /* libfost-core-d.a */; };
+		CE6D024422589A1B00907F2B /* libnative.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE6D024122589A0900907F2B /* libnative.a */; };
+		CE6D024622589AE100907F2B /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CE6D024522589AE100907F2B /* libc++.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -164,12 +164,19 @@
 			remoteGlobalIDString = F9CC584C1A094D99A1CA03F6;
 			remoteInfo = "fost-core-smoke-check";
 		};
-		CE6D023C225885B700907F2B /* PBXContainerItemProxy */ = {
+		CE6D024022589A0900907F2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE6D01F32258856800907F2B /* test-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 60F233248A524C33A2C755CD;
+			remoteInfo = native;
+		};
+		CE6D024222589A1400907F2B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = CE6D01F32258856800907F2B /* test-ios.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = 949AE531D8AA43A4B6CDF5D7;
-			remoteInfo = "fost-core";
+			remoteGlobalIDString = 1FCB3ECDAC514583AFFD7A13;
+			remoteInfo = native;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -182,8 +189,8 @@
 		CE58B8F32255A13C002BD250 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE58B8F52255A13C002BD250 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE6D01EE2258819C00907F2B /* iOS Test Runner-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS Test Runner-Bridging-Header.h"; sourceTree = "<group>"; };
-		CE6D01F1225881EF00907F2B /* native.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = native.mm; sourceTree = "<group>"; };
 		CE6D01F32258856800907F2B /* test-ios.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "test-ios.xcodeproj"; path = "../cpp/fost/test-ios.xcodeproj"; sourceTree = "<group>"; };
+		CE6D024522589AE100907F2B /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,7 +198,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE6D023B225885A000907F2B /* libfost-core-d.a in Frameworks */,
+				CE6D024622589AE100907F2B /* libc++.tbd in Frameworks */,
+				CE6D024422589A1B00907F2B /* libnative.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,7 +229,6 @@
 			children = (
 				CE58B8E92255A13A002BD250 /* AppDelegate.swift */,
 				CE58B8EB2255A13A002BD250 /* ViewController.swift */,
-				CE6D01F1225881EF00907F2B /* native.mm */,
 				CE58B8ED2255A13A002BD250 /* Main.storyboard */,
 				CE58B8F02255A13C002BD250 /* Assets.xcassets */,
 				CE58B8F22255A13C002BD250 /* LaunchScreen.storyboard */,
@@ -234,6 +241,7 @@
 		CE6D01F42258856800907F2B /* Products */ = {
 			isa = PBXGroup;
 			children = (
+				CE6D024122589A0900907F2B /* libnative.a */,
 				CE6D02112258856800907F2B /* libboost_chrono.a */,
 				CE6D02132258856800907F2B /* libboost_date_time.a */,
 				CE6D02152258856800907F2B /* libboost_filesystem.a */,
@@ -262,6 +270,7 @@
 		CE6D023A225885A000907F2B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CE6D024522589AE100907F2B /* libc++.tbd */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -280,7 +289,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				CE6D023D225885B700907F2B /* PBXTargetDependency */,
+				CE6D024322589A1400907F2B /* PBXTargetDependency */,
 			);
 			name = "iOS Test Runner";
 			productName = "iOS Test Runner";
@@ -475,6 +484,13 @@
 			remoteRef = CE6D02382258856800907F2B /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		CE6D024122589A0900907F2B /* libnative.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libnative.a;
+			remoteRef = CE6D024022589A0900907F2B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -495,7 +511,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE6D01F2225881EF00907F2B /* native.mm in Sources */,
 				CE58B8EC2255A13A002BD250 /* ViewController.swift in Sources */,
 				CE58B8EA2255A13A002BD250 /* AppDelegate.swift in Sources */,
 			);
@@ -504,10 +519,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		CE6D023D225885B700907F2B /* PBXTargetDependency */ = {
+		CE6D024322589A1400907F2B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "fost-core";
-			targetProxy = CE6D023C225885B700907F2B /* PBXContainerItemProxy */;
+			name = native;
+			targetProxy = CE6D024222589A1400907F2B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

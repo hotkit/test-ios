@@ -20,3 +20,10 @@ add_subdirectory(boost)
 add_subdirectory(fost/cord)
 add_subdirectory(fost/threading)
 add_subdirectory(fost/base/Cpp/fost-core)
+
+
+# The bridging library
+add_library(native native.mm)
+target_link_libraries(native
+        fost-core
+    )

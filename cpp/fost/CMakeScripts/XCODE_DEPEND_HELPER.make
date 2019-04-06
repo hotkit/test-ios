@@ -7,6 +7,11 @@ default:
 # Rules to remove targets that are older than anything to which they
 # link.  This forces Xcode to relink the targets from scratch.  It
 # does not seem to check these dependencies itself.
+PostBuild.native.Debug:
+/Users/jupiter/Projects/felspar/test-ios/cpp/fost/Debug/libnative.a:
+	/bin/rm -f /Users/jupiter/Projects/felspar/test-ios/cpp/fost/Debug/libnative.a
+
+
 PostBuild.boost_chrono.Debug:
 /Users/jupiter/Projects/felspar/test-ios/cpp/fost/boost/Debug/libboost_chrono.a:
 	/bin/rm -f /Users/jupiter/Projects/felspar/test-ios/cpp/fost/boost/Debug/libboost_chrono.a
@@ -152,6 +157,11 @@ PostBuild.f5-threading.Debug: /Users/jupiter/Projects/felspar/test-ios/cpp/fost/
 	/Users/jupiter/Projects/felspar/test-ios/cpp/fost/boost/Debug/libboost_filesystem.a\
 	/Users/jupiter/Projects/felspar/test-ios/cpp/fost/boost/Debug/libboost_system.a
 	/bin/rm -f /Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/base/Cpp/fost-core/Debug/fost-core-smoke-check
+
+
+PostBuild.native.Release:
+/Users/jupiter/Projects/felspar/test-ios/cpp/fost/Release/libnative.a:
+	/bin/rm -f /Users/jupiter/Projects/felspar/test-ios/cpp/fost/Release/libnative.a
 
 
 PostBuild.boost_chrono.Release:
@@ -301,6 +311,11 @@ PostBuild.f5-threading.Release: /Users/jupiter/Projects/felspar/test-ios/cpp/fos
 	/bin/rm -f /Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/base/Cpp/fost-core/Release/fost-core-smoke-check
 
 
+PostBuild.native.MinSizeRel:
+/Users/jupiter/Projects/felspar/test-ios/cpp/fost/MinSizeRel/libnative.a:
+	/bin/rm -f /Users/jupiter/Projects/felspar/test-ios/cpp/fost/MinSizeRel/libnative.a
+
+
 PostBuild.boost_chrono.MinSizeRel:
 /Users/jupiter/Projects/felspar/test-ios/cpp/fost/boost/MinSizeRel/libboost_chrono.a:
 	/bin/rm -f /Users/jupiter/Projects/felspar/test-ios/cpp/fost/boost/MinSizeRel/libboost_chrono.a
@@ -446,6 +461,11 @@ PostBuild.f5-threading.MinSizeRel: /Users/jupiter/Projects/felspar/test-ios/cpp/
 	/Users/jupiter/Projects/felspar/test-ios/cpp/fost/boost/MinSizeRel/libboost_filesystem.a\
 	/Users/jupiter/Projects/felspar/test-ios/cpp/fost/boost/MinSizeRel/libboost_system.a
 	/bin/rm -f /Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/base/Cpp/fost-core/MinSizeRel/fost-core-smoke-check
+
+
+PostBuild.native.RelWithDebInfo:
+/Users/jupiter/Projects/felspar/test-ios/cpp/fost/RelWithDebInfo/libnative.a:
+	/bin/rm -f /Users/jupiter/Projects/felspar/test-ios/cpp/fost/RelWithDebInfo/libnative.a
 
 
 PostBuild.boost_chrono.RelWithDebInfo:

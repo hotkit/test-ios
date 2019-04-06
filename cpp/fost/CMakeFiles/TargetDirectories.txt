@@ -1,4 +1,5 @@
 /Users/jupiter/Projects/felspar/test-ios/cpp/fost/CMakeFiles/install.dir
+/Users/jupiter/Projects/felspar/test-ios/cpp/fost/CMakeFiles/native.dir
 /Users/jupiter/Projects/felspar/test-ios/cpp/fost/CMakeFiles/check.dir
 /Users/jupiter/Projects/felspar/test-ios/cpp/fost/CMakeFiles/ALL_BUILD.dir
 /Users/jupiter/Projects/felspar/test-ios/cpp/fost/CMakeFiles/ZERO_CHECK.dir
