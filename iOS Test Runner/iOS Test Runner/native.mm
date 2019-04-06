@@ -9,8 +9,11 @@
 #include "iOS Test Runner-Bridging-Header.h"
 #include <string>
 
+
 namespace {
+
     std::string g_results = "No tests have run yet\nPress the 'Run' button...";
+
 }
 
 NSString * _Nonnull test_results() {
