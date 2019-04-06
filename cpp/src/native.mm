@@ -6,7 +6,7 @@
  */
 
 
-#import <Foundation/Foundation.h>
+#include "../../iOS Test Runner/iOS Test Runner/iOS Test Runner-Bridging-Header.h"
 #include <fost/core>
 
 
