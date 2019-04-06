@@ -8,8 +8,15 @@
 
 import UIKit
 
+
 class ViewController: UIViewController {
     @IBOutlet weak var results: UILabel!
+    
+    @IBAction func start_run(_ sender: Any) {
+        run_tests();
+        results.text = test_results()
+        results.sizeToFit()
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()

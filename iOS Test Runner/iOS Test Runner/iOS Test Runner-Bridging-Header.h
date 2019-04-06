@@ -14,6 +14,7 @@ extern "C" {
 #endif
 
     NSString * _Nonnull test_results();
+    void run_tests();
 
 #ifdef __cplusplus
 }

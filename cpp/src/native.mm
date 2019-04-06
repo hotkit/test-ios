@@ -24,6 +24,11 @@ extern "C" NSString * _Nonnull test_results() {
 }
 
 
+extern "C" void run_tests() {
+    g_results = "The button was pressed";
+}
+
+
 /**
     The following work around a link problem with Boost filesystem
     for iOS.
