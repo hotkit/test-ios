@@ -12,8 +12,10 @@
 		CE58B8EF2255A13A002BD250 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE58B8ED2255A13A002BD250 /* Main.storyboard */; };
 		CE58B8F12255A13C002BD250 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE58B8F02255A13C002BD250 /* Assets.xcassets */; };
 		CE58B8F42255A13C002BD250 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE58B8F22255A13C002BD250 /* LaunchScreen.storyboard */; };
-		CE6D024422589A1B00907F2B /* libnative.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE6D024122589A0900907F2B /* libnative.a */; };
 		CE6D024622589AE100907F2B /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CE6D024522589AE100907F2B /* libc++.tbd */; };
+		CE6D024722589C2000907F2B /* libfost-core-d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE6D02352258856800907F2B /* libfost-core-d.a */; };
+		CE6D024822589C2E00907F2B /* libboost_filesystem.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE6D02152258856800907F2B /* libboost_filesystem.a */; };
+		CE6D024D2258A1C000907F2B /* libnative.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE6D024122589A0900907F2B /* libnative.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -171,7 +173,7 @@
 			remoteGlobalIDString = 60F233248A524C33A2C755CD;
 			remoteInfo = native;
 		};
-		CE6D024222589A1400907F2B /* PBXContainerItemProxy */ = {
+		CE6D024E2258A1DE00907F2B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = CE6D01F32258856800907F2B /* test-ios.xcodeproj */;
 			proxyType = 1;
@@ -198,8 +200,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE6D024D2258A1C000907F2B /* libnative.a in Frameworks */,
+				CE6D024722589C2000907F2B /* libfost-core-d.a in Frameworks */,
 				CE6D024622589AE100907F2B /* libc++.tbd in Frameworks */,
-				CE6D024422589A1B00907F2B /* libnative.a in Frameworks */,
+				CE6D024822589C2E00907F2B /* libboost_filesystem.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,7 +293,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				CE6D024322589A1400907F2B /* PBXTargetDependency */,
+				CE6D024F2258A1DE00907F2B /* PBXTargetDependency */,
 			);
 			name = "iOS Test Runner";
 			productName = "iOS Test Runner";
@@ -519,10 +523,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		CE6D024322589A1400907F2B /* PBXTargetDependency */ = {
+		CE6D024F2258A1DE00907F2B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = native;
-			targetProxy = CE6D024222589A1400907F2B /* PBXContainerItemProxy */;
+			targetProxy = CE6D024E2258A1DE00907F2B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
