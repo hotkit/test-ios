@@ -26,10 +26,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KWA-De-Ypn">
-                                <rect key="frame" x="217" y="792" width="46" height="30"/>
+                                <rect key="frame" x="225" y="792" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration" label="Run"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Run"/>
                                 <connections>
                                     <action selector="start_run:" destination="BYZ-38-t0r" eventType="touchUpInside" id="M5O-QM-Nwk"/>
                                 </connections>
