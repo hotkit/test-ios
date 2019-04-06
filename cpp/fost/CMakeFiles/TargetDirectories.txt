@@ -41,3 +41,5 @@
 /Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/base/Cpp/fost-core/CMakeFiles/fost-core-smoke.dir
 /Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/base/Cpp/fost-core/CMakeFiles/fost-core-smoke-check.dir
 /Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/base/Cpp/fost-core/CMakeFiles/fost-core.dir
+/Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/base/Cpp/fost-test/CMakeFiles/install.dir
+/Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/base/Cpp/fost-test/CMakeFiles/fost-test.dir

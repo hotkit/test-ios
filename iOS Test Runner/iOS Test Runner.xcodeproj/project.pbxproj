@@ -16,6 +16,8 @@
 		CE6D024722589C2000907F2B /* libfost-core-d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE6D02352258856800907F2B /* libfost-core-d.a */; };
 		CE6D024822589C2E00907F2B /* libboost_filesystem.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE6D02152258856800907F2B /* libboost_filesystem.a */; };
 		CE6D024D2258A1C000907F2B /* libnative.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE6D024122589A0900907F2B /* libnative.a */; };
+		CE6D02712258B68600907F2B /* libfost-test-d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE6D02702258B68600907F2B /* libfost-test-d.a */; };
+		CE6D02722258B6A000907F2B /* libboost_date_time.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE6D02132258856800907F2B /* libboost_date_time.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -180,6 +182,13 @@
 			remoteGlobalIDString = 1FCB3ECDAC514583AFFD7A13;
 			remoteInfo = native;
 		};
+		CE6D026F2258B68600907F2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE6D01F32258856800907F2B /* test-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D4242F1025834F8ABD690C31;
+			remoteInfo = "fost-test";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -202,8 +211,10 @@
 			files = (
 				CE6D024D2258A1C000907F2B /* libnative.a in Frameworks */,
 				CE6D024722589C2000907F2B /* libfost-core-d.a in Frameworks */,
-				CE6D024622589AE100907F2B /* libc++.tbd in Frameworks */,
+				CE6D02712258B68600907F2B /* libfost-test-d.a in Frameworks */,
+				CE6D02722258B6A000907F2B /* libboost_date_time.a in Frameworks */,
 				CE6D024822589C2E00907F2B /* libboost_filesystem.a in Frameworks */,
+				CE6D024622589AE100907F2B /* libc++.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +278,7 @@
 				CE6D02352258856800907F2B /* libfost-core-d.a */,
 				CE6D02372258856800907F2B /* libfost-core-smoke.a */,
 				CE6D02392258856800907F2B /* fost-core-smoke-check */,
+				CE6D02702258B68600907F2B /* libfost-test-d.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -493,6 +505,13 @@
 			fileType = archive.ar;
 			path = libnative.a;
 			remoteRef = CE6D024022589A0900907F2B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE6D02702258B68600907F2B /* libfost-test-d.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libfost-test-d.a";
+			remoteRef = CE6D026F2258B68600907F2B /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */

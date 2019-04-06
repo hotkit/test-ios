@@ -7,7 +7,7 @@
 
 
 #include "../../iOS Test Runner/iOS Test Runner/iOS Test Runner-Bridging-Header.h"
-#include <fost/core>
+#include <fost/test>
 
 
 namespace {
@@ -25,7 +25,17 @@ extern "C" NSString * _Nonnull test_results() {
 
 
 extern "C" void run_tests() {
-    g_results = "The button was pressed";
+    std::stringstream ss;
+    try {
+        fostlib::test::suite::execute(ss);
+        g_results = ss.str();
+        if (g_results.empty()) {
+            g_results = "No tests where found to run";
+        }
+    } catch ( std::exception &e ) {
+        ss << e.what() << '\n';
+        g_results = "FAILURE via escaped exception\n\n" + ss.str();
+    }
 }
 
 

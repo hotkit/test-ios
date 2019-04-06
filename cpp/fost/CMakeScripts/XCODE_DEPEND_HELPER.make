@@ -143,6 +143,7 @@ PostBuild.fost-core-smoke.Debug:
 
 PostBuild.fost-core-smoke-check.Debug:
 PostBuild.fost-core-smoke.Debug: /Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/base/Cpp/fost-core/Debug/fost-core-smoke-check
+PostBuild.fost-test.Debug: /Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/base/Cpp/fost-core/Debug/fost-core-smoke-check
 PostBuild.fost-core.Debug: /Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/base/Cpp/fost-core/Debug/fost-core-smoke-check
 PostBuild.boost_date_time.Debug: /Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/base/Cpp/fost-core/Debug/fost-core-smoke-check
 PostBuild.boost_filesystem.Debug: /Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/base/Cpp/fost-core/Debug/fost-core-smoke-check
@@ -152,11 +153,17 @@ PostBuild.f5-cord.Debug: /Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/
 PostBuild.f5-threading.Debug: /Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/base/Cpp/fost-core/Debug/fost-core-smoke-check
 /Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/base/Cpp/fost-core/Debug/fost-core-smoke-check:\
 	/Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/base/Cpp/fost-core/Debug/libfost-core-smoke.a\
+	/Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/base/Cpp/fost-test/Debug/libfost-test-d.a\
 	/Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/base/Cpp/fost-core/Debug/libfost-core-d.a\
 	/Users/jupiter/Projects/felspar/test-ios/cpp/fost/boost/Debug/libboost_date_time.a\
 	/Users/jupiter/Projects/felspar/test-ios/cpp/fost/boost/Debug/libboost_filesystem.a\
 	/Users/jupiter/Projects/felspar/test-ios/cpp/fost/boost/Debug/libboost_system.a
 	/bin/rm -f /Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/base/Cpp/fost-core/Debug/fost-core-smoke-check
+
+
+PostBuild.fost-test.Debug:
+/Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/base/Cpp/fost-test/Debug/libfost-test-d.a:
+	/bin/rm -f /Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/base/Cpp/fost-test/Debug/libfost-test-d.a
 
 
 PostBuild.native.Release:
@@ -295,6 +302,7 @@ PostBuild.fost-core-smoke.Release:
 
 PostBuild.fost-core-smoke-check.Release:
 PostBuild.fost-core-smoke.Release: /Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/base/Cpp/fost-core/Release/fost-core-smoke-check
+PostBuild.fost-test.Release: /Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/base/Cpp/fost-core/Release/fost-core-smoke-check
 PostBuild.fost-core.Release: /Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/base/Cpp/fost-core/Release/fost-core-smoke-check
 PostBuild.boost_date_time.Release: /Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/base/Cpp/fost-core/Release/fost-core-smoke-check
 PostBuild.boost_filesystem.Release: /Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/base/Cpp/fost-core/Release/fost-core-smoke-check
@@ -304,11 +312,17 @@ PostBuild.f5-cord.Release: /Users/jupiter/Projects/felspar/test-ios/cpp/fost/fos
 PostBuild.f5-threading.Release: /Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/base/Cpp/fost-core/Release/fost-core-smoke-check
 /Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/base/Cpp/fost-core/Release/fost-core-smoke-check:\
 	/Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/base/Cpp/fost-core/Release/libfost-core-smoke.a\
+	/Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/base/Cpp/fost-test/Release/libfost-test.a\
 	/Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/base/Cpp/fost-core/Release/libfost-core.a\
 	/Users/jupiter/Projects/felspar/test-ios/cpp/fost/boost/Release/libboost_date_time.a\
 	/Users/jupiter/Projects/felspar/test-ios/cpp/fost/boost/Release/libboost_filesystem.a\
 	/Users/jupiter/Projects/felspar/test-ios/cpp/fost/boost/Release/libboost_system.a
 	/bin/rm -f /Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/base/Cpp/fost-core/Release/fost-core-smoke-check
+
+
+PostBuild.fost-test.Release:
+/Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/base/Cpp/fost-test/Release/libfost-test.a:
+	/bin/rm -f /Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/base/Cpp/fost-test/Release/libfost-test.a
 
 
 PostBuild.native.MinSizeRel:
@@ -447,6 +461,7 @@ PostBuild.fost-core-smoke.MinSizeRel:
 
 PostBuild.fost-core-smoke-check.MinSizeRel:
 PostBuild.fost-core-smoke.MinSizeRel: /Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/base/Cpp/fost-core/MinSizeRel/fost-core-smoke-check
+PostBuild.fost-test.MinSizeRel: /Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/base/Cpp/fost-core/MinSizeRel/fost-core-smoke-check
 PostBuild.fost-core.MinSizeRel: /Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/base/Cpp/fost-core/MinSizeRel/fost-core-smoke-check
 PostBuild.boost_date_time.MinSizeRel: /Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/base/Cpp/fost-core/MinSizeRel/fost-core-smoke-check
 PostBuild.boost_filesystem.MinSizeRel: /Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/base/Cpp/fost-core/MinSizeRel/fost-core-smoke-check
@@ -456,11 +471,17 @@ PostBuild.f5-cord.MinSizeRel: /Users/jupiter/Projects/felspar/test-ios/cpp/fost/
 PostBuild.f5-threading.MinSizeRel: /Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/base/Cpp/fost-core/MinSizeRel/fost-core-smoke-check
 /Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/base/Cpp/fost-core/MinSizeRel/fost-core-smoke-check:\
 	/Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/base/Cpp/fost-core/MinSizeRel/libfost-core-smoke.a\
+	/Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/base/Cpp/fost-test/MinSizeRel/libfost-test.a\
 	/Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/base/Cpp/fost-core/MinSizeRel/libfost-core.a\
 	/Users/jupiter/Projects/felspar/test-ios/cpp/fost/boost/MinSizeRel/libboost_date_time.a\
 	/Users/jupiter/Projects/felspar/test-ios/cpp/fost/boost/MinSizeRel/libboost_filesystem.a\
 	/Users/jupiter/Projects/felspar/test-ios/cpp/fost/boost/MinSizeRel/libboost_system.a
 	/bin/rm -f /Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/base/Cpp/fost-core/MinSizeRel/fost-core-smoke-check
+
+
+PostBuild.fost-test.MinSizeRel:
+/Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/base/Cpp/fost-test/MinSizeRel/libfost-test.a:
+	/bin/rm -f /Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/base/Cpp/fost-test/MinSizeRel/libfost-test.a
 
 
 PostBuild.native.RelWithDebInfo:
@@ -599,6 +620,7 @@ PostBuild.fost-core-smoke.RelWithDebInfo:
 
 PostBuild.fost-core-smoke-check.RelWithDebInfo:
 PostBuild.fost-core-smoke.RelWithDebInfo: /Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/base/Cpp/fost-core/RelWithDebInfo/fost-core-smoke-check
+PostBuild.fost-test.RelWithDebInfo: /Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/base/Cpp/fost-core/RelWithDebInfo/fost-core-smoke-check
 PostBuild.fost-core.RelWithDebInfo: /Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/base/Cpp/fost-core/RelWithDebInfo/fost-core-smoke-check
 PostBuild.boost_date_time.RelWithDebInfo: /Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/base/Cpp/fost-core/RelWithDebInfo/fost-core-smoke-check
 PostBuild.boost_filesystem.RelWithDebInfo: /Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/base/Cpp/fost-core/RelWithDebInfo/fost-core-smoke-check
@@ -608,11 +630,17 @@ PostBuild.f5-cord.RelWithDebInfo: /Users/jupiter/Projects/felspar/test-ios/cpp/f
 PostBuild.f5-threading.RelWithDebInfo: /Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/base/Cpp/fost-core/RelWithDebInfo/fost-core-smoke-check
 /Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/base/Cpp/fost-core/RelWithDebInfo/fost-core-smoke-check:\
 	/Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/base/Cpp/fost-core/RelWithDebInfo/libfost-core-smoke.a\
+	/Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/base/Cpp/fost-test/RelWithDebInfo/libfost-test.a\
 	/Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/base/Cpp/fost-core/RelWithDebInfo/libfost-core.a\
 	/Users/jupiter/Projects/felspar/test-ios/cpp/fost/boost/RelWithDebInfo/libboost_date_time.a\
 	/Users/jupiter/Projects/felspar/test-ios/cpp/fost/boost/RelWithDebInfo/libboost_filesystem.a\
 	/Users/jupiter/Projects/felspar/test-ios/cpp/fost/boost/RelWithDebInfo/libboost_system.a
 	/bin/rm -f /Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/base/Cpp/fost-core/RelWithDebInfo/fost-core-smoke-check
+
+
+PostBuild.fost-test.RelWithDebInfo:
+/Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/base/Cpp/fost-test/RelWithDebInfo/libfost-test.a:
+	/bin/rm -f /Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/base/Cpp/fost-test/RelWithDebInfo/libfost-test.a
 
 
 
@@ -642,3 +670,7 @@ PostBuild.f5-threading.RelWithDebInfo: /Users/jupiter/Projects/felspar/test-ios/
 /Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/base/Cpp/fost-core/RelWithDebInfo/libfost-core.a:
 /Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/base/Cpp/fost-core/Release/libfost-core-smoke.a:
 /Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/base/Cpp/fost-core/Release/libfost-core.a:
+/Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/base/Cpp/fost-test/Debug/libfost-test-d.a:
+/Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/base/Cpp/fost-test/MinSizeRel/libfost-test.a:
+/Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/base/Cpp/fost-test/RelWithDebInfo/libfost-test.a:
+/Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/base/Cpp/fost-test/Release/libfost-test.a:

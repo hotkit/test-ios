@@ -11,6 +11,7 @@ TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/jupiter/Projects/fels
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/jupiter/Projects/felspar/test-ios/cpp/src/CMakeLists.txt))
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/CMakeLists.txt))
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/base/Cpp/fost-core/CMakeLists.txt))
+TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/base/Cpp/fost-test/CMakeLists.txt))
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/base/smoke_test.cmake))
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/cord/CMakeLists.txt))
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/cord/test/CMakeLists.txt))

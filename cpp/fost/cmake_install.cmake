@@ -38,6 +38,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/cord/cmake_install.cmake")
   include("/Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/threading/cmake_install.cmake")
   include("/Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/base/Cpp/fost-core/cmake_install.cmake")
+  include("/Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/base/Cpp/fost-test/cmake_install.cmake")
 
 endif()
 
