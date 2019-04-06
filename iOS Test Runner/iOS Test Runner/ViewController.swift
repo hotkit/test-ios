@@ -1,10 +1,10 @@
-//
-//  ViewController.swift
-//  iOS Test Runner
-//
-//  Created by Jupiter God on 04/04/2019.
-//  Copyright © 2019 HotNow. All rights reserved.
-//
+/**
+    Copyright 2019, Felspar Co Ltd. <http://support.felspar.com/>
+ 
+    Distributed under the Boost Software License, Version 1.0.
+    See <http://www.boost.org/LICENSE_1_0.txt>
+ */
+
 
 import UIKit
 
@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        results.text = "Swift text...\nSwift text line 2"
+        results.text = test_results();
         results.sizeToFit()
     }
 
