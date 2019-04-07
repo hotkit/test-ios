@@ -29,7 +29,8 @@ This also means that all of the libraries need to be configured by hand in the X
 ## Troubleshooting
 
 * If you get "unkown project reference" errors on the _iOS Test Runner_ project then:
-    1. Exit Xcode
-    2. `git stash` or `git reset --hard` to get the project back into a known state
-    3. Re-run `./cpp/refresh`
-    4. Open Xcode again
+    1. From the _Product_ menu choose _Clean Build Folder_
+    2. Exit Xcode
+    3. `git stash` or `git reset --hard` to get the project back into a known state
+    4. Re-run `./cpp/refresh`
+    5. Open Xcode again
