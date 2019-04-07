@@ -696,6 +696,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "-Wl,-force_load,${BUILT_PRODUCTS_DIR}/libfost-core-smoke.a";
 				PRODUCT_BUNDLE_IDENTIFIER = "HotNow.iOS-Test-Runner";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "iOS Test Runner/iOS Test Runner-Bridging-Header.h";
@@ -716,6 +717,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "-Wl,-force_load,${BUILT_PRODUCTS_DIR}/libfost-core-smoke.a";
 				PRODUCT_BUNDLE_IDENTIFIER = "HotNow.iOS-Test-Runner";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "iOS Test Runner/iOS Test Runner-Bridging-Header.h";
