@@ -13,7 +13,7 @@ set(CMAKE_CXX_FLAGS "-std=c++17 ${CMAKE_CXX_FLAGS}")
 set(CMAKE_XCODE_ATTRIBUTE_SDKROOT "iphoneos")
 set(CMAKE_XCODE_ATTRIBUTE_SUPPORTED_PLATFORMS "iphoneos iphonesimulator")
 set(CMAKE_XCODE_EFFECTIVE_PLATFORMS "-iphoneos;-iphonesimulator")
-set(CMAKE_XCODE_ATTRIBUTE_ENABLE_BITCODE "NO")
+set(CMAKE_XCODE_ATTRIBUTE_ENABLE_BITCODE "YES")
 
 ## Most projects won't want to do this. Here we need the test targets
 ## so that we can run them.
