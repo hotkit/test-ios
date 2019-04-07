@@ -27,4 +27,6 @@ add_subdirectory(fost/base/Cpp/fost-test)
 add_library(native STATIC native.mm)
 target_link_libraries(native
         fost-test
+        fost-core-smoke
+        -Wl,-force_load,fost-core-smoke
     )
