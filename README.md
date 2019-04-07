@@ -24,3 +24,12 @@ There is a bridging header in the iOS application. This contains the definitions
 All libraries are built statically. This is because Xcode and CMake don't agree on where libraries need to be. If we try to make the native library a shared library then CMake will try to link the archive files from the wrong path and the link fails. By setting the link up on the iOS application side Xcode is used to find the archives and it knows where they are.
 
 This also means that all of the libraries need to be configured by hand in the Xcode configuration. Thankfully only the native target needs to be added to the "Target Dependencies" because the CMake build will produce the right set of libraries as it understands the library dependency graph.
+
+
+## Troubleshooting
+
+* If you get "unkown project reference" errors on the _iOS Test Runner_ project then:
+    1. Exit Xcode
+    2. `git stash` or `git reset --hard` to get the project back into a known state
+    3. Re-run `./cpp/refresh`
+    4. Open Xcode again
