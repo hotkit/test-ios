@@ -9,33 +9,33 @@
 /* Begin PBXAggregateTarget section */
 		079CF46FE6D2408CB8CBE3E3 /* ALL_BUILD */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 3C56AA1DB05244DFAAE9482A /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildConfigurationList = 2614D6D5644E433891773875 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
 			buildPhases = (
-				72FB67BBBF21433298CD52B8 /* CMake Rules */,
+				4A2B428EE4C74CEF86481C1B /* CMake Rules */,
 			);
 			dependencies = (
-				00E167B14D194C29A3B0970E /* PBXTargetDependency */,
+				9B2C0393E04A466D801335EC /* PBXTargetDependency */,
 			);
 			name = ALL_BUILD;
 			productName = ALL_BUILD;
 		};
 		9A0B030CAAA241969E27C2D6 /* install */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 1D054979C4A64F07B8EB9C08 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildConfigurationList = BE4782EB6D334C4A8264286C /* Build configuration list for PBXAggregateTarget "install" */;
 			buildPhases = (
-				F72DEA619DED40A1B78163FE /* CMake PostBuild Rules */,
+				5B671B712D714C46AAFAB205 /* CMake PostBuild Rules */,
 			);
 			dependencies = (
-				D39AEAECB3584C488D38FFE3 /* PBXTargetDependency */,
+				27D26D9C1B864A5E97522A32 /* PBXTargetDependency */,
 			);
 			name = install;
 			productName = install;
 		};
 		C3F13E0040BF40D3BA2B96D6 /* ZERO_CHECK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = BECE2EEE13694DFEB1C991FE /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildConfigurationList = AD89BAD7500542FEB89AE261 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
 			buildPhases = (
-				2CF1DE61ADBA4539B87CB2AB /* CMake Rules */,
+				07C606994128442DA102B90E /* CMake Rules */,
 			);
 			dependencies = (
 			);
@@ -45,238 +45,238 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		0DC5A9EB166247939127E1E9 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/run/limiters-unlimited-blocking.cpp */ = {isa = PBXBuildFile; fileRef = DA8E5C5CD85A411F8F4233C9 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/run/limiters-unlimited-blocking.cpp */; };
-		15E34FC7D7B940B68F5760E6 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/limiters.cpp */ = {isa = PBXBuildFile; fileRef = 27C5ABC3BC9C4E62A5FDCF65 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/limiters.cpp */; };
-		1A1BA381CA3F4615A4799AC3 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/map.cpp */ = {isa = PBXBuildFile; fileRef = 9C8D4AF08D3B4393A4D7352F /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/map.cpp */; };
-		288404EDD70245649A47A95C /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 8B1211EAA02D4C39B43D4F72 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/CMakeLists.txt */; };
-		2E6A8E699BFE444BB1AC87AE /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/set.cpp */ = {isa = PBXBuildFile; fileRef = 97C049BECBA741E391079052 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/set.cpp */; };
-		2F60F9E466434DB78DA7FF4C /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/policy.cpp */ = {isa = PBXBuildFile; fileRef = FF19950BD3A6488999AFFF15 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/policy.cpp */; };
-		554C184CFD7E4F2AAD570A2F /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/run/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = F8BADEFB7DF243AE8CA4856B /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/run/CMakeLists.txt */; };
-		7A5FAD8AA1DD4342AA434037 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/channel.cpp */ = {isa = PBXBuildFile; fileRef = 3EA4E13FADCD4FE7B2B06DA4 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/channel.cpp */; };
-		9F670898647741E899C93339 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/run/limiters-unlimited-nonblocking.cpp */ = {isa = PBXBuildFile; fileRef = A2A99A6C6DAE4F0A823109A8 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/run/limiters-unlimited-nonblocking.cpp */; };
-		A45B2D4E86CD4B9D81ED0A6A /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/queue.cpp */ = {isa = PBXBuildFile; fileRef = 1A3E41FBF86046EDA1115F29 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/queue.cpp */; };
-		A48548461C1F4CBE93EA41CC /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/run/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = B9D1A6C8E9174C1F978E54D3 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/run/CMakeLists.txt */; };
-		CA378E51CABF43E99387ADD9 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/reactor.cpp */ = {isa = PBXBuildFile; fileRef = 451CA675A41A43B59B0491AE /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/reactor.cpp */; };
-		CE54B7067F2747C383900CAB /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/run/tsmap-unique_ptr.cpp */ = {isa = PBXBuildFile; fileRef = 5B8DCCF5AED54255ACBF901F /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/run/tsmap-unique_ptr.cpp */; };
-		D849A56BD97B48E589C67066 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/ring.cpp */ = {isa = PBXBuildFile; fileRef = ECE926930A0C4F87917B25C1 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/ring.cpp */; };
-		D8D32A34068A456BADFBB156 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/sync.cpp */ = {isa = PBXBuildFile; fileRef = AA441C1601F74B8299DB4CFC /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/sync.cpp */; };
-		E7000CAB299748C2B96E7A43 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/run/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 32FF30F27F3A4E408F61C9C0 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/run/CMakeLists.txt */; };
+		12CE83F581404E66A93FB667 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/run/limiters-unlimited-blocking.cpp */ = {isa = PBXBuildFile; fileRef = F75F0B2F19804138B60B89B2 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/run/limiters-unlimited-blocking.cpp */; };
+		1E9CCBF6A2AF4E01B0B449AF /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/run/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = C3A0F941A097419EB1CEE2D8 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/run/CMakeLists.txt */; };
+		2702401295B64712B0D6E135 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/run/limiters-unlimited-nonblocking.cpp */ = {isa = PBXBuildFile; fileRef = 1538FDBB4DF547678A74B186 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/run/limiters-unlimited-nonblocking.cpp */; };
+		32DB3CA375DA46638405995C /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/channel.cpp */ = {isa = PBXBuildFile; fileRef = 8739C665993B49E4A7FCD873 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/channel.cpp */; };
+		42ECAEF9FAC54FA1909819B7 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/run/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 35C2ABFE5ADF432AA47D959E /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/run/CMakeLists.txt */; };
+		451FAB5E32204B6E8F2B86D6 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/set.cpp */ = {isa = PBXBuildFile; fileRef = 00E6CFC1D3684E94A74EAF3C /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/set.cpp */; };
+		511FC85428E348DA8EC038E0 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/sync.cpp */ = {isa = PBXBuildFile; fileRef = B12DA86D18BF4DB8A17CEC56 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/sync.cpp */; };
+		69E9B1505FF04B90A58B683D /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = A63A5E397C444465B199EB75 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/CMakeLists.txt */; };
+		747B5FED7CF84730865A501E /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/run/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 47692211182D43C28953EE14 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/run/CMakeLists.txt */; };
+		7BA7D68A6F4E48A5900FBA8D /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/queue.cpp */ = {isa = PBXBuildFile; fileRef = E928D9C8AF7D41EFA455184C /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/queue.cpp */; };
+		8559A05D943244C0B79F67A1 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/map.cpp */ = {isa = PBXBuildFile; fileRef = 4441D763DEE347139CBA7FE1 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/map.cpp */; };
+		8A0271DEB17C4ED3900B8AD5 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/limiters.cpp */ = {isa = PBXBuildFile; fileRef = 714D951C9A8E4FB69A56EB79 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/limiters.cpp */; };
+		8D4389716F3F40BDB379E417 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/reactor.cpp */ = {isa = PBXBuildFile; fileRef = 2D321701AF95430BBA96C86F /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/reactor.cpp */; };
+		BDEB7587424E420191370BD3 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/ring.cpp */ = {isa = PBXBuildFile; fileRef = F529B57F32954240A2DAB663 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/ring.cpp */; };
+		EFD1542E833C491FB9EFD2C5 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/policy.cpp */ = {isa = PBXBuildFile; fileRef = FF9F5696EA944A7DA1BA5862 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/policy.cpp */; };
+		F7FCBF0A68014CDD913F0CB1 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/run/tsmap-unique_ptr.cpp */ = {isa = PBXBuildFile; fileRef = 6474552A585C40BA893608B6 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/run/tsmap-unique_ptr.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildStyle section */
-		4D3B8DD444434D43820FFE4F /* MinSizeRel */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = MinSizeRel;
-		};
-		78C942F85DAB4B60BE7A6A4F /* Release */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Release;
-		};
-		9C6916050B8146DCBBE6E4E3 /* RelWithDebInfo */ = {
+		2D7EA08D777648F8A1E17A98 /* RelWithDebInfo */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = RelWithDebInfo;
 		};
-		F79D0E08A2274967B618D429 /* Debug */ = {
+		AFC90484EBDC40C49CBCC2CC /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		F23DF2A359664B968950E712 /* Debug */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = Debug;
 		};
+		F775C2BAAEE747BEA6B2362F /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
 /* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
-		172751B2A59C49A783E85B52 /* PBXContainerItemProxy */ = {
+		0E9E9F2D00654851A4EECA8E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = EA8F84B4DFAF4D558F8C4A4E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = C3F13E0040BF40D3BA2B96D6;
 			remoteInfo = ZERO_CHECK;
 		};
-		23FEF07CDC864F88AD30231A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EA8F84B4DFAF4D558F8C4A4E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C3F13E0040BF40D3BA2B96D6;
-			remoteInfo = ZERO_CHECK;
-		};
-		AFC843D74E264762B73058A6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EA8F84B4DFAF4D558F8C4A4E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C3F13E0040BF40D3BA2B96D6;
-			remoteInfo = ZERO_CHECK;
-		};
-		B0B4B9928BF1486E82C698FD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EA8F84B4DFAF4D558F8C4A4E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C3F13E0040BF40D3BA2B96D6;
-			remoteInfo = ZERO_CHECK;
-		};
-		C0F9B2C0231B4AA998E907E6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EA8F84B4DFAF4D558F8C4A4E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C3F13E0040BF40D3BA2B96D6;
-			remoteInfo = ZERO_CHECK;
-		};
-		F3A8426E68284351B6141EDB /* PBXContainerItemProxy */ = {
+		6E36A1A478F547188D59DD97 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = EA8F84B4DFAF4D558F8C4A4E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 079CF46FE6D2408CB8CBE3E3;
 			remoteInfo = ALL_BUILD;
 		};
+		A6D971D879844A19A6220469 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA8F84B4DFAF4D558F8C4A4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3F13E0040BF40D3BA2B96D6;
+			remoteInfo = ZERO_CHECK;
+		};
+		D021943993D54440B4BFDEBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA8F84B4DFAF4D558F8C4A4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3F13E0040BF40D3BA2B96D6;
+			remoteInfo = ZERO_CHECK;
+		};
+		DFEED59C9AF54719836441D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA8F84B4DFAF4D558F8C4A4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3F13E0040BF40D3BA2B96D6;
+			remoteInfo = ZERO_CHECK;
+		};
+		F5F8E47661DE4653ABDA5B8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA8F84B4DFAF4D558F8C4A4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3F13E0040BF40D3BA2B96D6;
+			remoteInfo = ZERO_CHECK;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1A3E41FBF86046EDA1115F29 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/queue.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = queue.cpp; path = test/headers/queue.cpp; sourceTree = SOURCE_ROOT; };
-		27C5ABC3BC9C4E62A5FDCF65 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/limiters.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = limiters.cpp; path = test/headers/limiters.cpp; sourceTree = SOURCE_ROOT; };
-		32FF30F27F3A4E408F61C9C0 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/run/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = test/run/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		3EA4E13FADCD4FE7B2B06DA4 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/channel.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = channel.cpp; path = test/headers/channel.cpp; sourceTree = SOURCE_ROOT; };
-		451CA675A41A43B59B0491AE /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/reactor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = reactor.cpp; path = test/headers/reactor.cpp; sourceTree = SOURCE_ROOT; };
-		5B8DCCF5AED54255ACBF901F /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/run/tsmap-unique_ptr.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "tsmap-unique_ptr.cpp"; path = "test/run/tsmap-unique_ptr.cpp"; sourceTree = SOURCE_ROOT; };
-		8B1211EAA02D4C39B43D4F72 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = test/headers/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		8F0D280B7D3E4FD9B8952486 /* threading-run-test-limiters-unlimited-nonblocking */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "threading-run-test-limiters-unlimited-nonblocking"; sourceTree = BUILT_PRODUCTS_DIR; };
-		97C049BECBA741E391079052 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/set.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = set.cpp; path = test/headers/set.cpp; sourceTree = SOURCE_ROOT; };
-		9A5F2BB5B30146528FAB71B5 /* threading-run-test-tsmap-unique_ptr */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "threading-run-test-tsmap-unique_ptr"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9C8D4AF08D3B4393A4D7352F /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/map.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = map.cpp; path = test/headers/map.cpp; sourceTree = SOURCE_ROOT; };
-		A2A99A6C6DAE4F0A823109A8 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/run/limiters-unlimited-nonblocking.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "limiters-unlimited-nonblocking.cpp"; path = "test/run/limiters-unlimited-nonblocking.cpp"; sourceTree = SOURCE_ROOT; };
-		A83EBDAEFA6E42869BBBE839 /* threading-run-test-limiters-unlimited-blocking */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "threading-run-test-limiters-unlimited-blocking"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AA441C1601F74B8299DB4CFC /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/sync.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sync.cpp; path = test/headers/sync.cpp; sourceTree = SOURCE_ROOT; };
-		B2630AA42CAA449F9E1FA77B /* threading-headers-tests */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libthreading-headers-tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B9D1A6C8E9174C1F978E54D3 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/run/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = test/run/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		C9F05CDE6A61406880F9D6AB /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		DA8E5C5CD85A411F8F4233C9 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/run/limiters-unlimited-blocking.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "limiters-unlimited-blocking.cpp"; path = "test/run/limiters-unlimited-blocking.cpp"; sourceTree = SOURCE_ROOT; };
-		ECE926930A0C4F87917B25C1 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/ring.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ring.cpp; path = test/headers/ring.cpp; sourceTree = SOURCE_ROOT; };
-		F8BADEFB7DF243AE8CA4856B /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/run/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = test/run/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		FF19950BD3A6488999AFFF15 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/policy.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = policy.cpp; path = test/headers/policy.cpp; sourceTree = SOURCE_ROOT; };
+		00E6CFC1D3684E94A74EAF3C /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/set.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = set.cpp; path = test/headers/set.cpp; sourceTree = SOURCE_ROOT; };
+		12D1E32D93B54ACFAADC66DC /* threading-run-test-tsmap-unique_ptr */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "threading-run-test-tsmap-unique_ptr"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13371651894B42A18620C368 /* threading-run-test-limiters-unlimited-blocking */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "threading-run-test-limiters-unlimited-blocking"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1538FDBB4DF547678A74B186 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/run/limiters-unlimited-nonblocking.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "limiters-unlimited-nonblocking.cpp"; path = "test/run/limiters-unlimited-nonblocking.cpp"; sourceTree = SOURCE_ROOT; };
+		2D321701AF95430BBA96C86F /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/reactor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = reactor.cpp; path = test/headers/reactor.cpp; sourceTree = SOURCE_ROOT; };
+		35C2ABFE5ADF432AA47D959E /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/run/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = test/run/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		4441D763DEE347139CBA7FE1 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/map.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = map.cpp; path = test/headers/map.cpp; sourceTree = SOURCE_ROOT; };
+		47692211182D43C28953EE14 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/run/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = test/run/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		48AE157B32EC406F864D65B8 /* threading-run-test-limiters-unlimited-nonblocking */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "threading-run-test-limiters-unlimited-nonblocking"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6474552A585C40BA893608B6 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/run/tsmap-unique_ptr.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "tsmap-unique_ptr.cpp"; path = "test/run/tsmap-unique_ptr.cpp"; sourceTree = SOURCE_ROOT; };
+		714D951C9A8E4FB69A56EB79 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/limiters.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = limiters.cpp; path = test/headers/limiters.cpp; sourceTree = SOURCE_ROOT; };
+		8739C665993B49E4A7FCD873 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/channel.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = channel.cpp; path = test/headers/channel.cpp; sourceTree = SOURCE_ROOT; };
+		9B4C56DD331B43569739DF4E /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		A63A5E397C444465B199EB75 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = test/headers/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		B12DA86D18BF4DB8A17CEC56 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/sync.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sync.cpp; path = test/headers/sync.cpp; sourceTree = SOURCE_ROOT; };
+		BC31BB4C8DB74D7699C737D8 /* threading-headers-tests */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libthreading-headers-tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3A0F941A097419EB1CEE2D8 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/run/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = test/run/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		E928D9C8AF7D41EFA455184C /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/queue.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = queue.cpp; path = test/headers/queue.cpp; sourceTree = SOURCE_ROOT; };
+		F529B57F32954240A2DAB663 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/ring.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ring.cpp; path = test/headers/ring.cpp; sourceTree = SOURCE_ROOT; };
+		F75F0B2F19804138B60B89B2 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/run/limiters-unlimited-blocking.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "limiters-unlimited-blocking.cpp"; path = "test/run/limiters-unlimited-blocking.cpp"; sourceTree = SOURCE_ROOT; };
+		FF9F5696EA944A7DA1BA5862 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/policy.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = policy.cpp; path = test/headers/policy.cpp; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
-		0433ED88032240008A40F412 /* threading-run-test-limiters-unlimited-blocking */ = {
+		0BD89CC7731149F1A8F30869 /* threading-run-test-tsmap-unique_ptr */ = {
 			isa = PBXGroup;
 			children = (
-				A4FE6BBBE3A04B1982F5872A /* Source Files */,
-				B9D1A6C8E9174C1F978E54D3 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/run/CMakeLists.txt */,
+				538145C387BF4069A5087D2F /* Source Files */,
+				35C2ABFE5ADF432AA47D959E /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/run/CMakeLists.txt */,
+			);
+			name = "threading-run-test-tsmap-unique_ptr";
+			sourceTree = "<group>";
+		};
+		18A9F55808C94D24A606E770 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC31BB4C8DB74D7699C737D8 /* threading-headers-tests */,
+				13371651894B42A18620C368 /* threading-run-test-limiters-unlimited-blocking */,
+				48AE157B32EC406F864D65B8 /* threading-run-test-limiters-unlimited-nonblocking */,
+				12D1E32D93B54ACFAADC66DC /* threading-run-test-tsmap-unique_ptr */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E78036363B34E9DAC4BFB3D /* threading-run-test-limiters-unlimited-nonblocking */ = {
+			isa = PBXGroup;
+			children = (
+				3C570E0472534FBFBD84DD8D /* Source Files */,
+				C3A0F941A097419EB1CEE2D8 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/run/CMakeLists.txt */,
+			);
+			name = "threading-run-test-limiters-unlimited-nonblocking";
+			sourceTree = "<group>";
+		};
+		2BA55E6F161245DEA7B81A55 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				F75F0B2F19804138B60B89B2 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/run/limiters-unlimited-blocking.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		3C570E0472534FBFBD84DD8D /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				1538FDBB4DF547678A74B186 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/run/limiters-unlimited-nonblocking.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		538145C387BF4069A5087D2F /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				6474552A585C40BA893608B6 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/run/tsmap-unique_ptr.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		5D6C8430BE0B4564A91290E1 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				8739C665993B49E4A7FCD873 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/channel.cpp */,
+				714D951C9A8E4FB69A56EB79 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/limiters.cpp */,
+				4441D763DEE347139CBA7FE1 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/map.cpp */,
+				FF9F5696EA944A7DA1BA5862 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/policy.cpp */,
+				E928D9C8AF7D41EFA455184C /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/queue.cpp */,
+				2D321701AF95430BBA96C86F /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/reactor.cpp */,
+				F529B57F32954240A2DAB663 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/ring.cpp */,
+				00E6CFC1D3684E94A74EAF3C /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/set.cpp */,
+				B12DA86D18BF4DB8A17CEC56 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/sync.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		7D34D23343E94EC4844C3A3A = {
+			isa = PBXGroup;
+			children = (
+				F91AC8C013DB4AD3B092FED1 /* ALL_BUILD */,
+				FA64D09991FC497B88239427 /* threading-headers-tests */,
+				0BD89CC7731149F1A8F30869 /* threading-run-test-tsmap-unique_ptr */,
+				1E78036363B34E9DAC4BFB3D /* threading-run-test-limiters-unlimited-nonblocking */,
+				80D86A5EE1D3433E84E9BF22 /* threading-run-test-limiters-unlimited-blocking */,
+				18A9F55808C94D24A606E770 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80D86A5EE1D3433E84E9BF22 /* threading-run-test-limiters-unlimited-blocking */ = {
+			isa = PBXGroup;
+			children = (
+				2BA55E6F161245DEA7B81A55 /* Source Files */,
+				47692211182D43C28953EE14 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/run/CMakeLists.txt */,
 			);
 			name = "threading-run-test-limiters-unlimited-blocking";
 			sourceTree = "<group>";
 		};
-		09A7848EB5B64399BBE8A54C = {
-			isa = PBXGroup;
-			children = (
-				579DD5030187492084BD8A4B /* ALL_BUILD */,
-				6F27C823307344E5867CB080 /* threading-headers-tests */,
-				99D9FE01556E4BDE99B94D85 /* threading-run-test-tsmap-unique_ptr */,
-				EDF9D081843D4989997CB8D5 /* threading-run-test-limiters-unlimited-nonblocking */,
-				0433ED88032240008A40F412 /* threading-run-test-limiters-unlimited-blocking */,
-				B572E1715D5148F6ADB700DC /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		195423E9638642AC8D87209E /* CMake Rules */ = {
+		C20188E4E7A14B6C89119654 /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = "CMake Rules";
 			sourceTree = "<group>";
 		};
-		3299391A20DC4C7CA680D6F5 /* Source Files */ = {
+		F91AC8C013DB4AD3B092FED1 /* ALL_BUILD */ = {
 			isa = PBXGroup;
 			children = (
-				3EA4E13FADCD4FE7B2B06DA4 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/channel.cpp */,
-				27C5ABC3BC9C4E62A5FDCF65 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/limiters.cpp */,
-				9C8D4AF08D3B4393A4D7352F /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/map.cpp */,
-				FF19950BD3A6488999AFFF15 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/policy.cpp */,
-				1A3E41FBF86046EDA1115F29 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/queue.cpp */,
-				451CA675A41A43B59B0491AE /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/reactor.cpp */,
-				ECE926930A0C4F87917B25C1 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/ring.cpp */,
-				97C049BECBA741E391079052 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/set.cpp */,
-				AA441C1601F74B8299DB4CFC /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/sync.cpp */,
-			);
-			name = "Source Files";
-			sourceTree = "<group>";
-		};
-		579DD5030187492084BD8A4B /* ALL_BUILD */ = {
-			isa = PBXGroup;
-			children = (
-				195423E9638642AC8D87209E /* CMake Rules */,
-				C9F05CDE6A61406880F9D6AB /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/CMakeLists.txt */,
+				C20188E4E7A14B6C89119654 /* CMake Rules */,
+				9B4C56DD331B43569739DF4E /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/CMakeLists.txt */,
 			);
 			name = ALL_BUILD;
 			sourceTree = "<group>";
 		};
-		6F27C823307344E5867CB080 /* threading-headers-tests */ = {
+		FA64D09991FC497B88239427 /* threading-headers-tests */ = {
 			isa = PBXGroup;
 			children = (
-				3299391A20DC4C7CA680D6F5 /* Source Files */,
-				8B1211EAA02D4C39B43D4F72 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/CMakeLists.txt */,
+				5D6C8430BE0B4564A91290E1 /* Source Files */,
+				A63A5E397C444465B199EB75 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/CMakeLists.txt */,
 			);
 			name = "threading-headers-tests";
-			sourceTree = "<group>";
-		};
-		9973D5858FA2435591DAB289 /* Source Files */ = {
-			isa = PBXGroup;
-			children = (
-				5B8DCCF5AED54255ACBF901F /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/run/tsmap-unique_ptr.cpp */,
-			);
-			name = "Source Files";
-			sourceTree = "<group>";
-		};
-		99D9FE01556E4BDE99B94D85 /* threading-run-test-tsmap-unique_ptr */ = {
-			isa = PBXGroup;
-			children = (
-				9973D5858FA2435591DAB289 /* Source Files */,
-				F8BADEFB7DF243AE8CA4856B /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/run/CMakeLists.txt */,
-			);
-			name = "threading-run-test-tsmap-unique_ptr";
-			sourceTree = "<group>";
-		};
-		A4FE6BBBE3A04B1982F5872A /* Source Files */ = {
-			isa = PBXGroup;
-			children = (
-				DA8E5C5CD85A411F8F4233C9 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/run/limiters-unlimited-blocking.cpp */,
-			);
-			name = "Source Files";
-			sourceTree = "<group>";
-		};
-		B572E1715D5148F6ADB700DC /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B2630AA42CAA449F9E1FA77B /* threading-headers-tests */,
-				A83EBDAEFA6E42869BBBE839 /* threading-run-test-limiters-unlimited-blocking */,
-				8F0D280B7D3E4FD9B8952486 /* threading-run-test-limiters-unlimited-nonblocking */,
-				9A5F2BB5B30146528FAB71B5 /* threading-run-test-tsmap-unique_ptr */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		D34D79A5ABC2488AB410F769 /* Source Files */ = {
-			isa = PBXGroup;
-			children = (
-				A2A99A6C6DAE4F0A823109A8 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/run/limiters-unlimited-nonblocking.cpp */,
-			);
-			name = "Source Files";
-			sourceTree = "<group>";
-		};
-		EDF9D081843D4989997CB8D5 /* threading-run-test-limiters-unlimited-nonblocking */ = {
-			isa = PBXGroup;
-			children = (
-				D34D79A5ABC2488AB410F769 /* Source Files */,
-				32FF30F27F3A4E408F61C9C0 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/run/CMakeLists.txt */,
-			);
-			name = "threading-run-test-limiters-unlimited-nonblocking";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -284,69 +284,69 @@
 /* Begin PBXNativeTarget section */
 		1F9C8146A8EE43A59A011C4F /* threading-run-test-limiters-unlimited-nonblocking */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2743783685CA4787ABA07AEC /* Build configuration list for PBXNativeTarget "threading-run-test-limiters-unlimited-nonblocking" */;
+			buildConfigurationList = 66DCF7A39ED145059A249DC1 /* Build configuration list for PBXNativeTarget "threading-run-test-limiters-unlimited-nonblocking" */;
 			buildPhases = (
-				947B2C8B625F4AC481B4DAB0 /* Sources */,
-				C37B0C0BEE4F497DA63683F9 /* CMake PostBuild Rules */,
+				8E985735139D484BBD8A0D2A /* Sources */,
+				0B2A490CAEA74E5583E9AFB8 /* CMake PostBuild Rules */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				652E40D37308495C93CA589F /* PBXTargetDependency */,
+				300FF9002A2A4E30A8A51586 /* PBXTargetDependency */,
 			);
 			name = "threading-run-test-limiters-unlimited-nonblocking";
 			productName = "threading-run-test-limiters-unlimited-nonblocking";
-			productReference = 8F0D280B7D3E4FD9B8952486 /* threading-run-test-limiters-unlimited-nonblocking */;
+			productReference = 48AE157B32EC406F864D65B8 /* threading-run-test-limiters-unlimited-nonblocking */;
 			productType = "com.apple.product-type.tool";
 		};
 		2F02D3FC8D1D4B358BD4A392 /* threading-run-test-tsmap-unique_ptr */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 317647CBAD1E4715B03D6B42 /* Build configuration list for PBXNativeTarget "threading-run-test-tsmap-unique_ptr" */;
+			buildConfigurationList = CE9E5E0B11874F42960407BD /* Build configuration list for PBXNativeTarget "threading-run-test-tsmap-unique_ptr" */;
 			buildPhases = (
-				904F41AAC3E14A289ED44BBB /* Sources */,
-				E5DE19A37DEC4EDDABDE38EB /* CMake PostBuild Rules */,
+				BA76119A6013469F88EC9E38 /* Sources */,
+				D42719AA246244D1ADDB9560 /* CMake PostBuild Rules */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				16F1A42837164F18BA91F03F /* PBXTargetDependency */,
+				705E03FA0E5546EC85F38AF8 /* PBXTargetDependency */,
 			);
 			name = "threading-run-test-tsmap-unique_ptr";
 			productName = "threading-run-test-tsmap-unique_ptr";
-			productReference = 9A5F2BB5B30146528FAB71B5 /* threading-run-test-tsmap-unique_ptr */;
+			productReference = 12D1E32D93B54ACFAADC66DC /* threading-run-test-tsmap-unique_ptr */;
 			productType = "com.apple.product-type.tool";
 		};
 		7B98DB2A13824739A7B8847B /* threading-headers-tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C75DC14707334C8AA68E1717 /* Build configuration list for PBXNativeTarget "threading-headers-tests" */;
+			buildConfigurationList = 4946CD261E4B4151A110324B /* Build configuration list for PBXNativeTarget "threading-headers-tests" */;
 			buildPhases = (
-				7EF610E13CF346D8870A2675 /* Sources */,
+				4F74CEF1D9DD4CB6B8F58FD3 /* Sources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				94E5A7EF3E5C4281852D6F10 /* PBXTargetDependency */,
+				D5B4465619844DEEA0AA52CD /* PBXTargetDependency */,
 			);
 			name = "threading-headers-tests";
 			productName = "threading-headers-tests";
-			productReference = B2630AA42CAA449F9E1FA77B /* threading-headers-tests */;
+			productReference = BC31BB4C8DB74D7699C737D8 /* threading-headers-tests */;
 			productType = "com.apple.product-type.library.static";
 		};
 		E049406691E740A1A014E687 /* threading-run-test-limiters-unlimited-blocking */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D4716374A909484EA9ADA485 /* Build configuration list for PBXNativeTarget "threading-run-test-limiters-unlimited-blocking" */;
+			buildConfigurationList = CF23F8A1D5B2409A9690494A /* Build configuration list for PBXNativeTarget "threading-run-test-limiters-unlimited-blocking" */;
 			buildPhases = (
-				2A31F9C43B9345F1913DD5BC /* Sources */,
-				CFACC69EFBC84A549A1CF2FC /* CMake PostBuild Rules */,
+				F88475C269DE42B0AC3BF01F /* Sources */,
+				51CEA08A21994E4FA31ADD54 /* CMake PostBuild Rules */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1913DBA3D2C345A5B505382E /* PBXTargetDependency */,
+				3924F80463B34760920D3544 /* PBXTargetDependency */,
 			);
 			name = "threading-run-test-limiters-unlimited-blocking";
 			productName = "threading-run-test-limiters-unlimited-blocking";
-			productReference = A83EBDAEFA6E42869BBBE839 /* threading-run-test-limiters-unlimited-blocking */;
+			productReference = 13371651894B42A18620C368 /* threading-run-test-limiters-unlimited-blocking */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -358,18 +358,18 @@
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1020;
 			};
-			buildConfigurationList = B5040DF6851A4AC0A346AFB7 /* Build configuration list for PBXProject "f5-threading" */;
+			buildConfigurationList = EE8CAF005EF44BA489787857 /* Build configuration list for PBXProject "f5-threading" */;
 			buildSettings = {
 			};
 			buildStyles = (
-				F79D0E08A2274967B618D429 /* Debug */,
-				78C942F85DAB4B60BE7A6A4F /* Release */,
-				4D3B8DD444434D43820FFE4F /* MinSizeRel */,
-				9C6916050B8146DCBBE6E4E3 /* RelWithDebInfo */,
+				F23DF2A359664B968950E712 /* Debug */,
+				AFC90484EBDC40C49CBCC2CC /* Release */,
+				F775C2BAAEE747BEA6B2362F /* MinSizeRel */,
+				2D7EA08D777648F8A1E17A98 /* RelWithDebInfo */,
 			);
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 0;
-			mainGroup = 09A7848EB5B64399BBE8A54C;
+			mainGroup = 7D34D23343E94EC4844C3A3A;
 			projectDirPath = "/Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading";
 			projectRoot = "";
 			targets = (
@@ -385,22 +385,7 @@
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		03D57B88068B4C54A4D4C42F = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# shell script goes here
-exit 0";
-			showEnvVarsInLog = 0;
-		};
-		2CF1DE61ADBA4539B87CB2AB /* CMake Rules */ = {
+		07C606994128442DA102B90E /* CMake Rules */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -411,33 +396,7 @@ exit 0";
 			shellScript = "make -C /Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/threading -f /Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/threading/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
 			showEnvVarsInLog = 0;
 		};
-		72FB67BBBF21433298CD52B8 /* CMake Rules */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			name = "CMake Rules";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "make -C /Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/threading -f /Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/threading/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
-			showEnvVarsInLog = 0;
-		};
-		BE98D721B487431CAD8EDA46 = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# shell script goes here
-exit 0";
-			showEnvVarsInLog = 0;
-		};
-		C37B0C0BEE4F497DA63683F9 /* CMake PostBuild Rules */ = {
+		0B2A490CAEA74E5583E9AFB8 /* CMake PostBuild Rules */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -448,18 +407,7 @@ exit 0";
 			shellScript = "make -C /Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/threading/test/run -f /Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/threading/test/run/CMakeScripts/threading-run-test-limiters-unlimited-nonblocking_postBuildPhase.make$CONFIGURATION all";
 			showEnvVarsInLog = 0;
 		};
-		CFACC69EFBC84A549A1CF2FC /* CMake PostBuild Rules */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			name = "CMake PostBuild Rules";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "make -C /Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/threading/test/run -f /Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/threading/test/run/CMakeScripts/threading-run-test-limiters-unlimited-blocking_postBuildPhase.make$CONFIGURATION all";
-			showEnvVarsInLog = 0;
-		};
-		E233DB8387704DBFA9AA9BB1 = {
+		29A90134D27C4F899F17729C = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -474,7 +422,18 @@ exit 0";
 exit 0";
 			showEnvVarsInLog = 0;
 		};
-		E5DE19A37DEC4EDDABDE38EB /* CMake PostBuild Rules */ = {
+		4A2B428EE4C74CEF86481C1B /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/threading -f /Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/threading/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		51CEA08A21994E4FA31ADD54 /* CMake PostBuild Rules */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -482,10 +441,10 @@ exit 0";
 			name = "CMake PostBuild Rules";
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "make -C /Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/threading/test/run -f /Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/threading/test/run/CMakeScripts/threading-run-test-tsmap-unique_ptr_postBuildPhase.make$CONFIGURATION all";
+			shellScript = "make -C /Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/threading/test/run -f /Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/threading/test/run/CMakeScripts/threading-run-test-limiters-unlimited-blocking_postBuildPhase.make$CONFIGURATION all";
 			showEnvVarsInLog = 0;
 		};
-		F72DEA619DED40A1B78163FE /* CMake PostBuild Rules */ = {
+		5B671B712D714C46AAFAB205 /* CMake PostBuild Rules */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -496,346 +455,127 @@ exit 0";
 			shellScript = "make -C /Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/threading -f /Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/threading/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
 			showEnvVarsInLog = 0;
 		};
+		A351EFB739A04B4CB402DBBE = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		BD5E67F612464EA4990AA9D5 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		D42719AA246244D1ADDB9560 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/threading/test/run -f /Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/threading/test/run/CMakeScripts/threading-run-test-tsmap-unique_ptr_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2A31F9C43B9345F1913DD5BC /* Sources */ = {
+		4F74CEF1D9DD4CB6B8F58FD3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0DC5A9EB166247939127E1E9 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/run/limiters-unlimited-blocking.cpp */,
+				32DB3CA375DA46638405995C /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/channel.cpp */,
+				8A0271DEB17C4ED3900B8AD5 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/limiters.cpp */,
+				8559A05D943244C0B79F67A1 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/map.cpp */,
+				EFD1542E833C491FB9EFD2C5 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/policy.cpp */,
+				7BA7D68A6F4E48A5900FBA8D /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/queue.cpp */,
+				8D4389716F3F40BDB379E417 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/reactor.cpp */,
+				BDEB7587424E420191370BD3 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/ring.cpp */,
+				451FAB5E32204B6E8F2B86D6 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/set.cpp */,
+				511FC85428E348DA8EC038E0 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/sync.cpp */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7EF610E13CF346D8870A2675 /* Sources */ = {
+		8E985735139D484BBD8A0D2A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A5FAD8AA1DD4342AA434037 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/channel.cpp */,
-				15E34FC7D7B940B68F5760E6 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/limiters.cpp */,
-				1A1BA381CA3F4615A4799AC3 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/map.cpp */,
-				2F60F9E466434DB78DA7FF4C /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/policy.cpp */,
-				A45B2D4E86CD4B9D81ED0A6A /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/queue.cpp */,
-				CA378E51CABF43E99387ADD9 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/reactor.cpp */,
-				D849A56BD97B48E589C67066 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/ring.cpp */,
-				2E6A8E699BFE444BB1AC87AE /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/set.cpp */,
-				D8D32A34068A456BADFBB156 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/headers/sync.cpp */,
+				2702401295B64712B0D6E135 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/run/limiters-unlimited-nonblocking.cpp */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		904F41AAC3E14A289ED44BBB /* Sources */ = {
+		BA76119A6013469F88EC9E38 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE54B7067F2747C383900CAB /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/run/tsmap-unique_ptr.cpp */,
+				F7FCBF0A68014CDD913F0CB1 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/run/tsmap-unique_ptr.cpp */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		947B2C8B625F4AC481B4DAB0 /* Sources */ = {
+		F88475C269DE42B0AC3BF01F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F670898647741E899C93339 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/run/limiters-unlimited-nonblocking.cpp */,
+				12CE83F581404E66A93FB667 /* /Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/test/run/limiters-unlimited-blocking.cpp */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		00E167B14D194C29A3B0970E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C3F13E0040BF40D3BA2B96D6 /* ZERO_CHECK */;
-			targetProxy = 172751B2A59C49A783E85B52 /* PBXContainerItemProxy */;
-		};
-		16F1A42837164F18BA91F03F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C3F13E0040BF40D3BA2B96D6 /* ZERO_CHECK */;
-			targetProxy = B0B4B9928BF1486E82C698FD /* PBXContainerItemProxy */;
-		};
-		1913DBA3D2C345A5B505382E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C3F13E0040BF40D3BA2B96D6 /* ZERO_CHECK */;
-			targetProxy = C0F9B2C0231B4AA998E907E6 /* PBXContainerItemProxy */;
-		};
-		652E40D37308495C93CA589F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C3F13E0040BF40D3BA2B96D6 /* ZERO_CHECK */;
-			targetProxy = AFC843D74E264762B73058A6 /* PBXContainerItemProxy */;
-		};
-		94E5A7EF3E5C4281852D6F10 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C3F13E0040BF40D3BA2B96D6 /* ZERO_CHECK */;
-			targetProxy = 23FEF07CDC864F88AD30231A /* PBXContainerItemProxy */;
-		};
-		D39AEAECB3584C488D38FFE3 /* PBXTargetDependency */ = {
+		27D26D9C1B864A5E97522A32 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 079CF46FE6D2408CB8CBE3E3 /* ALL_BUILD */;
-			targetProxy = F3A8426E68284351B6141EDB /* PBXContainerItemProxy */;
+			targetProxy = 6E36A1A478F547188D59DD97 /* PBXContainerItemProxy */;
+		};
+		300FF9002A2A4E30A8A51586 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3F13E0040BF40D3BA2B96D6 /* ZERO_CHECK */;
+			targetProxy = A6D971D879844A19A6220469 /* PBXContainerItemProxy */;
+		};
+		3924F80463B34760920D3544 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3F13E0040BF40D3BA2B96D6 /* ZERO_CHECK */;
+			targetProxy = DFEED59C9AF54719836441D7 /* PBXContainerItemProxy */;
+		};
+		705E03FA0E5546EC85F38AF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3F13E0040BF40D3BA2B96D6 /* ZERO_CHECK */;
+			targetProxy = D021943993D54440B4BFDEBC /* PBXContainerItemProxy */;
+		};
+		9B2C0393E04A466D801335EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3F13E0040BF40D3BA2B96D6 /* ZERO_CHECK */;
+			targetProxy = 0E9E9F2D00654851A4EECA8E /* PBXContainerItemProxy */;
+		};
+		D5B4465619844DEEA0AA52CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3F13E0040BF40D3BA2B96D6 /* ZERO_CHECK */;
+			targetProxy = F5F8E47661DE4653ABDA5B8B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		07CA9FCFAB7741F8A650798C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				EXECUTABLE_PREFIX = "";
-				EXECUTABLE_SUFFIX = "";
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",BOOST_COROUTINES_NO_DEPRECATION_WARNING,BOOST_COROUTINE_NO_DEPRECATION_WARNING);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/algorithm/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/align/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/array/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/asio/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/assert/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/atomic/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/bind/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/core/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/concept_check/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/config/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/container/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/container_hash/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/conversion/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/detail/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/exception/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/foreach/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/function/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/function_types/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/functional/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/fusion/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/integer/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/io/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/iterator/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/lambda/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/lexical_cast/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/math/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/move/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/mpl/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/numeric_conversion/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/optional/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/phoenix/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/predef/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/preprocessor/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/proto/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/random/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/range/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/ratio/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/regex/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/smart_ptr/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/spirit/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/static_assert/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/throw_exception/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/tokenizer/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/tti/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/tuple/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/type_index/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/type_traits/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/typeof/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/utility/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/uuid/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/variant/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/chrono/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/system/include");
-				INSTALL_PATH = "";
-				LIBRARY_SEARCH_PATHS = "";
-				OTHER_CPLUSPLUSFLAGS = "-std=c++17      -DNDEBUG '-std=gnu++1z'  ";
-				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names    /Users/jupiter/Projects/felspar/test-ios/cpp/fost/boost/Release/libboost_chrono.a -lboost_context -lboost_coroutine /Users/jupiter/Projects/felspar/test-ios/cpp/fost/boost/Release/libboost_system.a -lboost_thread ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = "threading-run-test-limiters-unlimited-blocking";
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/threading/test/run";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
-			};
-			name = Release;
-		};
-		0E5485C8C2DE403A80439D0C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/threading";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
-			};
-			name = Release;
-		};
-		1D266B9DB8FF4136A86AA9E9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/threading";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
-			};
-			name = Release;
-		};
-		2C29DC87FEEA4051B508C08A /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				EXECUTABLE_PREFIX = "";
-				EXECUTABLE_SUFFIX = "";
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 2;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",BOOST_COROUTINES_NO_DEPRECATION_WARNING,BOOST_COROUTINE_NO_DEPRECATION_WARNING);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/algorithm/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/align/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/array/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/asio/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/assert/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/atomic/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/bind/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/core/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/concept_check/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/config/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/container/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/container_hash/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/conversion/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/detail/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/exception/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/foreach/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/function/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/function_types/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/functional/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/fusion/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/integer/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/io/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/iterator/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/lambda/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/lexical_cast/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/math/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/move/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/mpl/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/numeric_conversion/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/optional/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/phoenix/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/predef/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/preprocessor/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/proto/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/random/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/range/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/ratio/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/regex/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/smart_ptr/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/spirit/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/static_assert/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/throw_exception/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/tokenizer/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/tti/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/tuple/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/type_index/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/type_traits/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/typeof/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/utility/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/uuid/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/variant/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/chrono/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/system/include");
-				INSTALL_PATH = "";
-				LIBRARY_SEARCH_PATHS = "";
-				OTHER_CPLUSPLUSFLAGS = "-std=c++17         -DNDEBUG '-std=gnu++1z'  ";
-				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names    /Users/jupiter/Projects/felspar/test-ios/cpp/fost/boost/RelWithDebInfo/libboost_chrono.a -lboost_context -lboost_coroutine /Users/jupiter/Projects/felspar/test-ios/cpp/fost/boost/RelWithDebInfo/libboost_system.a -lboost_thread ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = "threading-run-test-limiters-unlimited-nonblocking";
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/threading/test/run";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		2CDC3D5FDBBA44AEA1A11C1D /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				EXECUTABLE_PREFIX = "";
-				EXECUTABLE_SUFFIX = "";
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = s;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",BOOST_COROUTINES_NO_DEPRECATION_WARNING,BOOST_COROUTINE_NO_DEPRECATION_WARNING);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/algorithm/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/align/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/array/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/asio/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/assert/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/atomic/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/bind/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/core/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/concept_check/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/config/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/container/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/container_hash/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/conversion/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/detail/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/exception/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/foreach/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/function/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/function_types/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/functional/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/fusion/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/integer/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/io/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/iterator/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/lambda/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/lexical_cast/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/math/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/move/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/mpl/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/numeric_conversion/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/optional/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/phoenix/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/predef/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/preprocessor/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/proto/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/random/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/range/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/ratio/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/regex/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/smart_ptr/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/spirit/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/static_assert/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/throw_exception/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/tokenizer/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/tti/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/tuple/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/type_index/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/type_traits/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/typeof/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/utility/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/uuid/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/variant/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/chrono/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/system/include");
-				INSTALL_PATH = "";
-				LIBRARY_SEARCH_PATHS = "";
-				OTHER_CPLUSPLUSFLAGS = "-std=c++17      -DNDEBUG '-std=gnu++1z'  ";
-				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names    /Users/jupiter/Projects/felspar/test-ios/cpp/fost/boost/MinSizeRel/libboost_chrono.a -lboost_context -lboost_coroutine /Users/jupiter/Projects/felspar/test-ios/cpp/fost/boost/MinSizeRel/libboost_system.a -lboost_thread ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = "threading-run-test-limiters-unlimited-nonblocking";
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/threading/test/run";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		30806922BFF944B7ABF47482 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 2;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",BOOST_COROUTINES_NO_DEPRECATION_WARNING,BOOST_COROUTINE_NO_DEPRECATION_WARNING);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/algorithm/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/align/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/array/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/asio/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/assert/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/atomic/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/bind/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/core/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/concept_check/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/config/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/container/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/container_hash/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/conversion/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/detail/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/exception/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/foreach/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/function/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/function_types/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/functional/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/fusion/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/integer/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/io/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/iterator/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/lambda/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/lexical_cast/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/math/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/move/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/mpl/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/numeric_conversion/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/optional/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/phoenix/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/predef/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/preprocessor/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/proto/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/random/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/range/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/ratio/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/regex/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/smart_ptr/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/spirit/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/static_assert/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/throw_exception/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/tokenizer/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/tti/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/tuple/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/type_index/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/type_traits/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/typeof/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/utility/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/uuid/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/variant/include");
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				OTHER_CPLUSPLUSFLAGS = "-std=c++17         -DNDEBUG '-std=gnu++1z'  ";
-				OTHER_LIBTOOLFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = "threading-headers-tests";
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/threading/test/headers";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		37646CEE2CDB41839BD12300 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				EXECUTABLE_PREFIX = "";
-				EXECUTABLE_SUFFIX = "";
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 2;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",BOOST_COROUTINES_NO_DEPRECATION_WARNING,BOOST_COROUTINE_NO_DEPRECATION_WARNING);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/algorithm/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/align/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/array/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/asio/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/assert/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/atomic/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/bind/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/core/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/concept_check/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/config/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/container/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/container_hash/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/conversion/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/detail/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/exception/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/foreach/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/function/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/function_types/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/functional/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/fusion/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/integer/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/io/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/iterator/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/lambda/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/lexical_cast/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/math/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/move/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/mpl/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/numeric_conversion/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/optional/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/phoenix/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/predef/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/preprocessor/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/proto/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/random/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/range/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/ratio/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/regex/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/smart_ptr/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/spirit/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/static_assert/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/throw_exception/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/tokenizer/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/tti/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/tuple/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/type_index/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/type_traits/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/typeof/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/utility/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/uuid/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/variant/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/chrono/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/system/include");
-				INSTALL_PATH = "";
-				LIBRARY_SEARCH_PATHS = "";
-				OTHER_CPLUSPLUSFLAGS = "-std=c++17         -DNDEBUG '-std=gnu++1z'  ";
-				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names    /Users/jupiter/Projects/felspar/test-ios/cpp/fost/boost/RelWithDebInfo/libboost_chrono.a -lboost_context -lboost_coroutine /Users/jupiter/Projects/felspar/test-ios/cpp/fost/boost/RelWithDebInfo/libboost_system.a -lboost_thread ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = "threading-run-test-limiters-unlimited-blocking";
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/threading/test/run";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		456CAD40D2044A4EAC444A6F /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				EXECUTABLE_PREFIX = "";
-				EXECUTABLE_SUFFIX = "";
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = s;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",BOOST_COROUTINES_NO_DEPRECATION_WARNING,BOOST_COROUTINE_NO_DEPRECATION_WARNING);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/algorithm/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/align/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/array/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/asio/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/assert/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/atomic/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/bind/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/core/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/concept_check/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/config/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/container/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/container_hash/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/conversion/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/detail/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/exception/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/foreach/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/function/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/function_types/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/functional/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/fusion/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/integer/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/io/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/iterator/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/lambda/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/lexical_cast/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/math/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/move/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/mpl/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/numeric_conversion/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/optional/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/phoenix/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/predef/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/preprocessor/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/proto/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/random/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/range/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/ratio/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/regex/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/smart_ptr/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/spirit/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/static_assert/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/throw_exception/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/tokenizer/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/tti/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/tuple/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/type_index/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/type_traits/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/typeof/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/utility/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/uuid/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/variant/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/chrono/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/system/include");
-				INSTALL_PATH = "";
-				LIBRARY_SEARCH_PATHS = "";
-				OTHER_CPLUSPLUSFLAGS = "-std=c++17      -DNDEBUG '-std=gnu++1z'  ";
-				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names    /Users/jupiter/Projects/felspar/test-ios/cpp/fost/boost/MinSizeRel/libboost_chrono.a -lboost_context -lboost_coroutine /Users/jupiter/Projects/felspar/test-ios/cpp/fost/boost/MinSizeRel/libboost_system.a -lboost_thread ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = "threading-run-test-tsmap-unique_ptr";
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/threading/test/run";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		45DEB5162F8F4FC7AB1EB1A8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",BOOST_COROUTINES_NO_DEPRECATION_WARNING,BOOST_COROUTINE_NO_DEPRECATION_WARNING);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/algorithm/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/align/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/array/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/asio/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/assert/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/atomic/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/bind/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/core/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/concept_check/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/config/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/container/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/container_hash/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/conversion/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/detail/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/exception/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/foreach/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/function/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/function_types/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/functional/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/fusion/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/integer/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/io/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/iterator/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/lambda/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/lexical_cast/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/math/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/move/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/mpl/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/numeric_conversion/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/optional/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/phoenix/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/predef/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/preprocessor/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/proto/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/random/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/range/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/ratio/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/regex/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/smart_ptr/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/spirit/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/static_assert/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/throw_exception/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/tokenizer/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/tti/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/tuple/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/type_index/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/type_traits/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/typeof/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/utility/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/uuid/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/variant/include");
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				OTHER_CPLUSPLUSFLAGS = "-std=c++17     '-std=gnu++1z'  ";
-				OTHER_LIBTOOLFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = "threading-headers-tests";
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/threading/test/headers";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
-			};
-			name = Debug;
-		};
-		4FF093EB0CDB44CCAFFADD34 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/threading";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
-			};
-			name = Debug;
-		};
-		53A09D887A51406FBC24DAD0 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				EXECUTABLE_PREFIX = "";
-				EXECUTABLE_SUFFIX = "";
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = s;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",BOOST_COROUTINES_NO_DEPRECATION_WARNING,BOOST_COROUTINE_NO_DEPRECATION_WARNING);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/algorithm/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/align/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/array/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/asio/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/assert/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/atomic/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/bind/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/core/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/concept_check/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/config/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/container/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/container_hash/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/conversion/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/detail/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/exception/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/foreach/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/function/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/function_types/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/functional/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/fusion/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/integer/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/io/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/iterator/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/lambda/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/lexical_cast/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/math/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/move/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/mpl/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/numeric_conversion/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/optional/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/phoenix/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/predef/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/preprocessor/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/proto/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/random/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/range/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/ratio/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/regex/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/smart_ptr/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/spirit/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/static_assert/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/throw_exception/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/tokenizer/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/tti/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/tuple/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/type_index/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/type_traits/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/typeof/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/utility/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/uuid/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/variant/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/chrono/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/system/include");
-				INSTALL_PATH = "";
-				LIBRARY_SEARCH_PATHS = "";
-				OTHER_CPLUSPLUSFLAGS = "-std=c++17      -DNDEBUG '-std=gnu++1z'  ";
-				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names    /Users/jupiter/Projects/felspar/test-ios/cpp/fost/boost/MinSizeRel/libboost_chrono.a -lboost_context -lboost_coroutine /Users/jupiter/Projects/felspar/test-ios/cpp/fost/boost/MinSizeRel/libboost_system.a -lboost_thread ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = "threading-run-test-limiters-unlimited-blocking";
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/threading/test/run";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		5FE886664C94476DAD155E25 /* Release */ = {
+		023A4B2FEC734031847E9808 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -855,7 +595,47 @@ exit 0";
 			};
 			name = Release;
 		};
-		6468F81180784482B08A920C /* Debug */ = {
+		0470B688EA00410CA7DF85B3 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/threading";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		09E501F1179A46C4AF274E6E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/threading";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		10060A475A9D4038858BEA7C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -880,27 +660,7 @@ exit 0";
 			};
 			name = Debug;
 		};
-		75C154B8B4F1497BB7F354F1 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/threading";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		809DA2414F0D413CA2ADDB47 /* Release */ = {
+		14958E25F6394A829DEE213C /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -908,14 +668,14 @@ exit 0";
 				EXECUTABLE_SUFFIX = "";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",BOOST_COROUTINES_NO_DEPRECATION_WARNING,BOOST_COROUTINE_NO_DEPRECATION_WARNING);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = ("/Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/algorithm/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/align/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/array/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/asio/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/assert/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/atomic/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/bind/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/core/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/concept_check/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/config/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/container/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/container_hash/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/conversion/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/detail/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/exception/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/foreach/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/function/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/function_types/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/functional/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/fusion/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/integer/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/io/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/iterator/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/lambda/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/lexical_cast/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/math/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/move/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/mpl/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/numeric_conversion/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/optional/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/phoenix/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/predef/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/preprocessor/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/proto/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/random/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/range/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/ratio/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/regex/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/smart_ptr/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/spirit/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/static_assert/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/throw_exception/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/tokenizer/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/tti/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/tuple/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/type_index/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/type_traits/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/typeof/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/utility/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/uuid/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/variant/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/chrono/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/system/include");
 				INSTALL_PATH = "";
 				LIBRARY_SEARCH_PATHS = "";
 				OTHER_CPLUSPLUSFLAGS = "-std=c++17      -DNDEBUG '-std=gnu++1z'  ";
-				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names    /Users/jupiter/Projects/felspar/test-ios/cpp/fost/boost/Release/libboost_chrono.a -lboost_context -lboost_coroutine /Users/jupiter/Projects/felspar/test-ios/cpp/fost/boost/Release/libboost_system.a -lboost_thread ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names    /Users/jupiter/Projects/felspar/test-ios/cpp/fost/boost/MinSizeRel/libboost_chrono.a -lboost_context -lboost_coroutine /Users/jupiter/Projects/felspar/test-ios/cpp/fost/boost/MinSizeRel/libboost_system.a -lboost_thread ";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = "threading-run-test-limiters-unlimited-nonblocking";
 				SECTORDER_FLAGS = "";
@@ -923,83 +683,9 @@ exit 0";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
 			};
-			name = Release;
-		};
-		832283385E4C452285221D87 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
-				SYMROOT = "/Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/threading/build";
-			};
 			name = MinSizeRel;
 		};
-		83BDAB0D5903413887A287A3 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/threading";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		910F782CE4B64099BE1656D4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				EXECUTABLE_PREFIX = "";
-				EXECUTABLE_SUFFIX = "";
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",BOOST_COROUTINES_NO_DEPRECATION_WARNING,BOOST_COROUTINE_NO_DEPRECATION_WARNING);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/algorithm/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/align/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/array/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/asio/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/assert/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/atomic/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/bind/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/core/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/concept_check/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/config/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/container/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/container_hash/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/conversion/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/detail/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/exception/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/foreach/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/function/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/function_types/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/functional/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/fusion/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/integer/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/io/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/iterator/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/lambda/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/lexical_cast/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/math/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/move/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/mpl/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/numeric_conversion/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/optional/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/phoenix/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/predef/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/preprocessor/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/proto/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/random/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/range/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/ratio/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/regex/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/smart_ptr/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/spirit/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/static_assert/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/throw_exception/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/tokenizer/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/tti/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/tuple/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/type_index/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/type_traits/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/typeof/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/utility/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/uuid/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/variant/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/chrono/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/system/include");
-				INSTALL_PATH = "";
-				LIBRARY_SEARCH_PATHS = "";
-				OTHER_CPLUSPLUSFLAGS = "-std=c++17     '-std=gnu++1z'  ";
-				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names    /Users/jupiter/Projects/felspar/test-ios/cpp/fost/boost/Debug/libboost_chrono.a -lboost_context -lboost_coroutine /Users/jupiter/Projects/felspar/test-ios/cpp/fost/boost/Debug/libboost_system.a -lboost_thread ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = "threading-run-test-limiters-unlimited-blocking";
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/threading/test/run";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
-			};
-			name = Debug;
-		};
-		914F1ED1D50041E0959FA837 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/threading";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		A10AEA27018A4CAE85BA8DE9 /* RelWithDebInfo */ = {
+		152122498F424AA295995ED2 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -1024,7 +710,117 @@ exit 0";
 			};
 			name = RelWithDebInfo;
 		};
-		A5B6763C60DC4FB9841ED0D9 /* MinSizeRel */ = {
+		15E74019C8D843CC96A58CE4 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/threading";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		175B0F403535410CBAF0DE92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",BOOST_COROUTINES_NO_DEPRECATION_WARNING,BOOST_COROUTINE_NO_DEPRECATION_WARNING);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/algorithm/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/align/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/array/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/asio/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/assert/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/atomic/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/bind/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/core/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/concept_check/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/config/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/container/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/container_hash/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/conversion/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/detail/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/exception/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/foreach/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/function/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/function_types/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/functional/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/fusion/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/integer/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/io/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/iterator/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/lambda/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/lexical_cast/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/math/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/move/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/mpl/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/numeric_conversion/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/optional/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/phoenix/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/predef/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/preprocessor/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/proto/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/random/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/range/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/ratio/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/regex/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/smart_ptr/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/spirit/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/static_assert/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/throw_exception/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/tokenizer/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/tti/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/tuple/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/type_index/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/type_traits/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/typeof/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/utility/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/uuid/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/variant/include");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "-std=c++17     '-std=gnu++1z'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "threading-headers-tests";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/threading/test/headers";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		17A6537B85DD442FB783BA82 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",BOOST_COROUTINES_NO_DEPRECATION_WARNING,BOOST_COROUTINE_NO_DEPRECATION_WARNING);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/algorithm/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/align/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/array/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/asio/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/assert/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/atomic/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/bind/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/core/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/concept_check/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/config/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/container/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/container_hash/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/conversion/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/detail/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/exception/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/foreach/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/function/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/function_types/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/functional/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/fusion/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/integer/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/io/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/iterator/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/lambda/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/lexical_cast/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/math/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/move/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/mpl/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/numeric_conversion/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/optional/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/phoenix/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/predef/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/preprocessor/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/proto/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/random/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/range/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/ratio/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/regex/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/smart_ptr/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/spirit/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/static_assert/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/throw_exception/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/tokenizer/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/tti/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/tuple/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/type_index/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/type_traits/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/typeof/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/utility/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/uuid/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/variant/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/chrono/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/system/include");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "-std=c++17         -DNDEBUG '-std=gnu++1z'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names    /Users/jupiter/Projects/felspar/test-ios/cpp/fost/boost/RelWithDebInfo/libboost_chrono.a -lboost_context -lboost_coroutine /Users/jupiter/Projects/felspar/test-ios/cpp/fost/boost/RelWithDebInfo/libboost_system.a -lboost_thread ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "threading-run-test-limiters-unlimited-nonblocking";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/threading/test/run";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		1CC226C7D201482086DE4731 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/threading";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		1DC44B3853FB48D49340D330 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/threading";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		2369FF15712F495A832C409D /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -1049,27 +845,7 @@ exit 0";
 			};
 			name = MinSizeRel;
 		};
-		A7E31B1EF84346DDAF68F09C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/threading";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
-			};
-			name = Debug;
-		};
-		A8E0998F24394818998064AA /* MinSizeRel */ = {
+		25D267EE6A454519AC110DD9 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -1089,45 +865,7 @@ exit 0";
 			};
 			name = MinSizeRel;
 		};
-		AB4B1E728E7845BEB002062C /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
-				SYMROOT = "/Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/threading/build";
-			};
-			name = RelWithDebInfo;
-		};
-		B1920FEB94984BB787EAC170 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
-				SYMROOT = "/Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/threading/build";
-			};
-			name = Debug;
-		};
-		D21BD8A1BF824A84879B4D6C /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/threading";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		D74F56F120B6431A87E41019 /* Release */ = {
+		2A28C7E265C94436A4B0A4BF /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -1135,24 +873,49 @@ exit 0";
 				EXECUTABLE_SUFFIX = "";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",BOOST_COROUTINES_NO_DEPRECATION_WARNING,BOOST_COROUTINE_NO_DEPRECATION_WARNING);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = ("/Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/algorithm/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/align/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/array/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/asio/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/assert/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/atomic/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/bind/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/core/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/concept_check/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/config/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/container/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/container_hash/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/conversion/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/detail/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/exception/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/foreach/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/function/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/function_types/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/functional/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/fusion/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/integer/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/io/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/iterator/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/lambda/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/lexical_cast/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/math/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/move/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/mpl/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/numeric_conversion/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/optional/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/phoenix/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/predef/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/preprocessor/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/proto/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/random/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/range/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/ratio/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/regex/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/smart_ptr/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/spirit/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/static_assert/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/throw_exception/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/tokenizer/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/tti/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/tuple/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/type_index/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/type_traits/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/typeof/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/utility/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/uuid/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/variant/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/chrono/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/system/include");
 				INSTALL_PATH = "";
 				LIBRARY_SEARCH_PATHS = "";
 				OTHER_CPLUSPLUSFLAGS = "-std=c++17      -DNDEBUG '-std=gnu++1z'  ";
-				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names    /Users/jupiter/Projects/felspar/test-ios/cpp/fost/boost/Release/libboost_chrono.a -lboost_context -lboost_coroutine /Users/jupiter/Projects/felspar/test-ios/cpp/fost/boost/Release/libboost_system.a -lboost_thread ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names    /Users/jupiter/Projects/felspar/test-ios/cpp/fost/boost/MinSizeRel/libboost_chrono.a -lboost_context -lboost_coroutine /Users/jupiter/Projects/felspar/test-ios/cpp/fost/boost/MinSizeRel/libboost_system.a -lboost_thread ";
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = "threading-run-test-tsmap-unique_ptr";
+				PRODUCT_NAME = "threading-run-test-limiters-unlimited-blocking";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/threading/test/run";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
 			};
-			name = Release;
+			name = MinSizeRel;
 		};
-		D8B14B39726F4FB3A500521B /* Release */ = {
+		32F2AD6B3928476E85709C80 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",BOOST_COROUTINES_NO_DEPRECATION_WARNING,BOOST_COROUTINE_NO_DEPRECATION_WARNING);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/algorithm/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/align/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/array/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/asio/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/assert/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/atomic/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/bind/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/core/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/concept_check/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/config/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/container/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/container_hash/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/conversion/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/detail/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/exception/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/foreach/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/function/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/function_types/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/functional/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/fusion/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/integer/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/io/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/iterator/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/lambda/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/lexical_cast/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/math/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/move/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/mpl/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/numeric_conversion/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/optional/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/phoenix/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/predef/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/preprocessor/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/proto/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/random/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/range/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/ratio/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/regex/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/smart_ptr/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/spirit/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/static_assert/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/throw_exception/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/tokenizer/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/tti/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/tuple/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/type_index/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/type_traits/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/typeof/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/utility/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/uuid/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/variant/include");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "-std=c++17         -DNDEBUG '-std=gnu++1z'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "threading-headers-tests";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/threading/test/headers";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		3384EE69595545B18CF678E9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -1177,7 +940,75 @@ exit 0";
 			};
 			name = Release;
 		};
-		DCB770327693437086F784E5 /* Debug */ = {
+		3868E3A37A5A42408BB24844 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",BOOST_COROUTINES_NO_DEPRECATION_WARNING,BOOST_COROUTINE_NO_DEPRECATION_WARNING);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/algorithm/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/align/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/array/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/asio/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/assert/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/atomic/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/bind/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/core/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/concept_check/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/config/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/container/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/container_hash/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/conversion/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/detail/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/exception/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/foreach/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/function/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/function_types/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/functional/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/fusion/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/integer/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/io/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/iterator/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/lambda/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/lexical_cast/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/math/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/move/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/mpl/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/numeric_conversion/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/optional/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/phoenix/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/predef/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/preprocessor/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/proto/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/random/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/range/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/ratio/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/regex/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/smart_ptr/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/spirit/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/static_assert/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/throw_exception/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/tokenizer/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/tti/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/tuple/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/type_index/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/type_traits/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/typeof/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/utility/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/uuid/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/variant/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/chrono/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/system/include");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "-std=c++17      -DNDEBUG '-std=gnu++1z'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names    /Users/jupiter/Projects/felspar/test-ios/cpp/fost/boost/Release/libboost_chrono.a -lboost_context -lboost_coroutine /Users/jupiter/Projects/felspar/test-ios/cpp/fost/boost/Release/libboost_system.a -lboost_thread ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "threading-run-test-limiters-unlimited-blocking";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/threading/test/run";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		38C765C7FD3A48E9A1BB81D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/threading/build";
+			};
+			name = Release;
+		};
+		407162F5572E4154AF07BE54 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/threading/build";
+			};
+			name = RelWithDebInfo;
+		};
+		425AB21F7748463FB72DB43C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",BOOST_COROUTINES_NO_DEPRECATION_WARNING,BOOST_COROUTINE_NO_DEPRECATION_WARNING);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/algorithm/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/align/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/array/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/asio/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/assert/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/atomic/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/bind/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/core/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/concept_check/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/config/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/container/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/container_hash/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/conversion/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/detail/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/exception/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/foreach/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/function/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/function_types/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/functional/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/fusion/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/integer/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/io/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/iterator/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/lambda/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/lexical_cast/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/math/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/move/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/mpl/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/numeric_conversion/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/optional/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/phoenix/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/predef/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/preprocessor/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/proto/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/random/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/range/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/ratio/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/regex/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/smart_ptr/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/spirit/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/static_assert/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/throw_exception/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/tokenizer/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/tti/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/tuple/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/type_index/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/type_traits/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/typeof/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/utility/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/uuid/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/variant/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/chrono/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/system/include");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "-std=c++17      -DNDEBUG '-std=gnu++1z'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names    /Users/jupiter/Projects/felspar/test-ios/cpp/fost/boost/Release/libboost_chrono.a -lboost_context -lboost_coroutine /Users/jupiter/Projects/felspar/test-ios/cpp/fost/boost/Release/libboost_system.a -lboost_thread ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "threading-run-test-limiters-unlimited-nonblocking";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/threading/test/run";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		4D76026B51D24461965337D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -1189,7 +1020,7 @@ exit 0";
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
+				PRODUCT_NAME = ALL_BUILD;
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/threading";
 				USE_HEADERMAP = NO;
@@ -1197,7 +1028,16 @@ exit 0";
 			};
 			name = Debug;
 		};
-		E8C7EE6A955B47C6B7AAA2BD /* MinSizeRel */ = {
+		80589FCC67484649B3DD2855 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/threading/build";
+			};
+			name = Debug;
+		};
+		8B9CFFE31A83479084A767A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -1215,9 +1055,34 @@ exit 0";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
 			};
-			name = MinSizeRel;
+			name = Debug;
 		};
-		ECB27506309946D59DC158DF /* Debug */ = {
+		92464684C4DE414EB75BC7E8 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",BOOST_COROUTINES_NO_DEPRECATION_WARNING,BOOST_COROUTINE_NO_DEPRECATION_WARNING);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/algorithm/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/align/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/array/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/asio/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/assert/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/atomic/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/bind/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/core/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/concept_check/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/config/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/container/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/container_hash/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/conversion/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/detail/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/exception/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/foreach/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/function/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/function_types/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/functional/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/fusion/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/integer/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/io/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/iterator/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/lambda/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/lexical_cast/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/math/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/move/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/mpl/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/numeric_conversion/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/optional/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/phoenix/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/predef/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/preprocessor/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/proto/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/random/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/range/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/ratio/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/regex/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/smart_ptr/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/spirit/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/static_assert/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/throw_exception/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/tokenizer/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/tti/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/tuple/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/type_index/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/type_traits/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/typeof/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/utility/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/uuid/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/variant/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/chrono/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/system/include");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "-std=c++17         -DNDEBUG '-std=gnu++1z'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names    /Users/jupiter/Projects/felspar/test-ios/cpp/fost/boost/RelWithDebInfo/libboost_chrono.a -lboost_context -lboost_coroutine /Users/jupiter/Projects/felspar/test-ios/cpp/fost/boost/RelWithDebInfo/libboost_system.a -lboost_thread ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "threading-run-test-limiters-unlimited-blocking";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/threading/test/run";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		A0B1EFF87DB94F918C150770 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -1242,102 +1107,237 @@ exit 0";
 			};
 			name = Debug;
 		};
-		F66AB4A884E14DCABCFF4998 /* Release */ = {
+		B4F241DEEF6A413180C273B9 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/threading";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		D43E6DB811644AD7AA616F68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",BOOST_COROUTINES_NO_DEPRECATION_WARNING,BOOST_COROUTINE_NO_DEPRECATION_WARNING);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/algorithm/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/align/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/array/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/asio/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/assert/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/atomic/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/bind/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/core/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/concept_check/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/config/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/container/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/container_hash/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/conversion/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/detail/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/exception/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/foreach/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/function/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/function_types/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/functional/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/fusion/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/integer/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/io/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/iterator/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/lambda/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/lexical_cast/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/math/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/move/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/mpl/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/numeric_conversion/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/optional/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/phoenix/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/predef/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/preprocessor/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/proto/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/random/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/range/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/ratio/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/regex/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/smart_ptr/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/spirit/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/static_assert/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/throw_exception/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/tokenizer/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/tti/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/tuple/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/type_index/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/type_traits/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/typeof/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/utility/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/uuid/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/variant/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/chrono/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/system/include");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "-std=c++17     '-std=gnu++1z'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names    /Users/jupiter/Projects/felspar/test-ios/cpp/fost/boost/Debug/libboost_chrono.a -lboost_context -lboost_coroutine /Users/jupiter/Projects/felspar/test-ios/cpp/fost/boost/Debug/libboost_system.a -lboost_thread ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "threading-run-test-limiters-unlimited-blocking";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/threading/test/run";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		DB7F0A04CC25410C87B1C108 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",BOOST_COROUTINES_NO_DEPRECATION_WARNING,BOOST_COROUTINE_NO_DEPRECATION_WARNING);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/algorithm/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/align/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/array/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/asio/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/assert/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/atomic/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/bind/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/core/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/concept_check/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/config/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/container/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/container_hash/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/conversion/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/detail/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/exception/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/foreach/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/function/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/function_types/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/functional/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/fusion/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/integer/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/io/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/iterator/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/lambda/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/lexical_cast/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/math/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/move/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/mpl/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/numeric_conversion/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/optional/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/phoenix/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/predef/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/preprocessor/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/proto/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/random/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/range/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/ratio/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/regex/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/smart_ptr/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/spirit/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/static_assert/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/throw_exception/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/tokenizer/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/tti/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/tuple/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/type_index/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/type_traits/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/typeof/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/utility/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/uuid/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/variant/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/chrono/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/system/include");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "-std=c++17      -DNDEBUG '-std=gnu++1z'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names    /Users/jupiter/Projects/felspar/test-ios/cpp/fost/boost/MinSizeRel/libboost_chrono.a -lboost_context -lboost_coroutine /Users/jupiter/Projects/felspar/test-ios/cpp/fost/boost/MinSizeRel/libboost_system.a -lboost_thread ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "threading-run-test-tsmap-unique_ptr";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/threading/test/run";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		E0594D9762144C9CB4E52A5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/threading";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		ED29807D01004DABB3CCA80B /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
 				SYMROOT = "/Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/threading/build";
 			};
+			name = MinSizeRel;
+		};
+		F284FD21A88A4D8880020494 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",BOOST_COROUTINES_NO_DEPRECATION_WARNING,BOOST_COROUTINE_NO_DEPRECATION_WARNING);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/jupiter/Projects/felspar/test-ios/cpp/src/fost/threading/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/algorithm/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/align/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/array/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/asio/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/assert/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/atomic/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/bind/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/core/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/concept_check/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/config/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/container/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/container_hash/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/conversion/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/detail/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/exception/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/foreach/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/function/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/function_types/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/functional/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/fusion/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/integer/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/io/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/iterator/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/lambda/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/lexical_cast/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/math/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/move/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/mpl/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/numeric_conversion/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/optional/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/phoenix/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/predef/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/preprocessor/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/proto/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/random/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/range/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/ratio/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/regex/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/smart_ptr/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/spirit/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/static_assert/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/throw_exception/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/tokenizer/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/tti/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/tuple/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/type_index/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/type_traits/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/typeof/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/utility/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/uuid/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/variant/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/chrono/include","/Users/jupiter/Projects/felspar/test-ios/cpp/src/boost/system/include");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "-std=c++17      -DNDEBUG '-std=gnu++1z'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names    /Users/jupiter/Projects/felspar/test-ios/cpp/fost/boost/Release/libboost_chrono.a -lboost_context -lboost_coroutine /Users/jupiter/Projects/felspar/test-ios/cpp/fost/boost/Release/libboost_system.a -lboost_thread ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "threading-run-test-tsmap-unique_ptr";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/threading/test/run";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
 			name = Release;
+		};
+		FF97E4E5149E47E19359AF4F /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/jupiter/Projects/felspar/test-ios/cpp/fost/fost/threading";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1D054979C4A64F07B8EB9C08 /* Build configuration list for PBXAggregateTarget "install" */ = {
+		2614D6D5644E433891773875 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4FF093EB0CDB44CCAFFADD34 /* Debug */,
-				1D266B9DB8FF4136A86AA9E9 /* Release */,
-				E8C7EE6A955B47C6B7AAA2BD /* MinSizeRel */,
-				D21BD8A1BF824A84879B4D6C /* RelWithDebInfo */,
+				4D76026B51D24461965337D8 /* Debug */,
+				E0594D9762144C9CB4E52A5A /* Release */,
+				15E74019C8D843CC96A58CE4 /* MinSizeRel */,
+				09E501F1179A46C4AF274E6E /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		2743783685CA4787ABA07AEC /* Build configuration list for PBXNativeTarget "threading-run-test-limiters-unlimited-nonblocking" */ = {
+		4946CD261E4B4151A110324B /* Build configuration list for PBXNativeTarget "threading-headers-tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6468F81180784482B08A920C /* Debug */,
-				809DA2414F0D413CA2ADDB47 /* Release */,
-				2CDC3D5FDBBA44AEA1A11C1D /* MinSizeRel */,
-				2C29DC87FEEA4051B508C08A /* RelWithDebInfo */,
+				175B0F403535410CBAF0DE92 /* Debug */,
+				3384EE69595545B18CF678E9 /* Release */,
+				2369FF15712F495A832C409D /* MinSizeRel */,
+				32F2AD6B3928476E85709C80 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		317647CBAD1E4715B03D6B42 /* Build configuration list for PBXNativeTarget "threading-run-test-tsmap-unique_ptr" */ = {
+		66DCF7A39ED145059A249DC1 /* Build configuration list for PBXNativeTarget "threading-run-test-limiters-unlimited-nonblocking" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ECB27506309946D59DC158DF /* Debug */,
-				D74F56F120B6431A87E41019 /* Release */,
-				456CAD40D2044A4EAC444A6F /* MinSizeRel */,
-				A10AEA27018A4CAE85BA8DE9 /* RelWithDebInfo */,
+				10060A475A9D4038858BEA7C /* Debug */,
+				425AB21F7748463FB72DB43C /* Release */,
+				14958E25F6394A829DEE213C /* MinSizeRel */,
+				17A6537B85DD442FB783BA82 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		3C56AA1DB05244DFAAE9482A /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		AD89BAD7500542FEB89AE261 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A7E31B1EF84346DDAF68F09C /* Debug */,
-				0E5485C8C2DE403A80439D0C /* Release */,
-				83BDAB0D5903413887A287A3 /* MinSizeRel */,
-				75C154B8B4F1497BB7F354F1 /* RelWithDebInfo */,
+				1DC44B3853FB48D49340D330 /* Debug */,
+				023A4B2FEC734031847E9808 /* Release */,
+				25D267EE6A454519AC110DD9 /* MinSizeRel */,
+				0470B688EA00410CA7DF85B3 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		B5040DF6851A4AC0A346AFB7 /* Build configuration list for PBXProject "f5-threading" */ = {
+		BE4782EB6D334C4A8264286C /* Build configuration list for PBXAggregateTarget "install" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B1920FEB94984BB787EAC170 /* Debug */,
-				F66AB4A884E14DCABCFF4998 /* Release */,
-				832283385E4C452285221D87 /* MinSizeRel */,
-				AB4B1E728E7845BEB002062C /* RelWithDebInfo */,
+				8B9CFFE31A83479084A767A8 /* Debug */,
+				1CC226C7D201482086DE4731 /* Release */,
+				FF97E4E5149E47E19359AF4F /* MinSizeRel */,
+				B4F241DEEF6A413180C273B9 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		BECE2EEE13694DFEB1C991FE /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+		CE9E5E0B11874F42960407BD /* Build configuration list for PBXNativeTarget "threading-run-test-tsmap-unique_ptr" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DCB770327693437086F784E5 /* Debug */,
-				5FE886664C94476DAD155E25 /* Release */,
-				A8E0998F24394818998064AA /* MinSizeRel */,
-				914F1ED1D50041E0959FA837 /* RelWithDebInfo */,
+				A0B1EFF87DB94F918C150770 /* Debug */,
+				F284FD21A88A4D8880020494 /* Release */,
+				DB7F0A04CC25410C87B1C108 /* MinSizeRel */,
+				152122498F424AA295995ED2 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		C75DC14707334C8AA68E1717 /* Build configuration list for PBXNativeTarget "threading-headers-tests" */ = {
+		CF23F8A1D5B2409A9690494A /* Build configuration list for PBXNativeTarget "threading-run-test-limiters-unlimited-blocking" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				45DEB5162F8F4FC7AB1EB1A8 /* Debug */,
-				D8B14B39726F4FB3A500521B /* Release */,
-				A5B6763C60DC4FB9841ED0D9 /* MinSizeRel */,
-				30806922BFF944B7ABF47482 /* RelWithDebInfo */,
+				D43E6DB811644AD7AA616F68 /* Debug */,
+				3868E3A37A5A42408BB24844 /* Release */,
+				2A28C7E265C94436A4B0A4BF /* MinSizeRel */,
+				92464684C4DE414EB75BC7E8 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		D4716374A909484EA9ADA485 /* Build configuration list for PBXNativeTarget "threading-run-test-limiters-unlimited-blocking" */ = {
+		EE8CAF005EF44BA489787857 /* Build configuration list for PBXProject "f5-threading" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				910F782CE4B64099BE1656D4 /* Debug */,
-				07CA9FCFAB7741F8A650798C /* Release */,
-				53A09D887A51406FBC24DAD0 /* MinSizeRel */,
-				37646CEE2CDB41839BD12300 /* RelWithDebInfo */,
+				80589FCC67484649B3DD2855 /* Debug */,
+				38C765C7FD3A48E9A1BB81D6 /* Release */,
+				ED29807D01004DABB3CCA80B /* MinSizeRel */,
+				407162F5572E4154AF07BE54 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
