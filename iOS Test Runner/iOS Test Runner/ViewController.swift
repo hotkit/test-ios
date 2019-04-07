@@ -11,18 +11,18 @@ import UIKit
 
 class ViewController: UIViewController {
     @IBOutlet weak var results: UILabel!
+    @IBOutlet weak var resultsBox: UITextView!
     
     @IBAction func start_run(_ sender: Any) {
         run_tests();
-        results.text = test_results()
-        results.sizeToFit()
+        resultsBox.text = test_results()
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        results.text = test_results();
-        results.sizeToFit()
+        resultsBox.text = test_results()
+        resultsBox.isEditable = false
     }
 
 
