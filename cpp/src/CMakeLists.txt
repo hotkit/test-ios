@@ -18,15 +18,13 @@ set(CMAKE_XCODE_ATTRIBUTE_ENABLE_BITCODE "YES")
 ## Most projects won't want to do this. Here we need the test targets
 ## so that we can run them.
 add_custom_target(check)
-include(./fost/base/smoke_test.cmake)
 
 
 # Other required build files
 add_subdirectory(boost)
 add_subdirectory(fost/cord)
 add_subdirectory(fost/threading)
-add_subdirectory(fost/base/Cpp/fost-core)
-add_subdirectory(fost/base/Cpp/fost-test)
+add_subdirectory(fost/base)
 
 
 # The bridging library
@@ -34,4 +32,6 @@ add_library(native STATIC native.mm)
 target_link_libraries(native
         fost-test
         fost-core-smoke
+        fost-datetime-smoke
+        fost-sinks-smoke
     )
