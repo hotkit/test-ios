@@ -7,7 +7,10 @@
 
 #pragma once
 
+
 #import <Foundation/Foundation.h>
+#include "fost/swift/settings.hpp"
+
 
 #ifdef __cplusplus
 extern "C" {
@@ -19,3 +22,4 @@ extern "C" {
 #ifdef __cplusplus
 }
 #endif
+

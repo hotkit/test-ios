@@ -25,11 +25,16 @@ add_subdirectory(boost)
 add_subdirectory(fost/cord)
 add_subdirectory(fost/threading)
 add_subdirectory(fost/base)
-
+add_subdirectory(fost-swift)
 
 # The bridging library
 add_library(native STATIC native.mm)
 target_link_libraries(native
+        fost-swift
+
+        ## These libraries are all for the actual tests
+        ## Other applications would normally only use
+        ## the libraries listed above
         fost-test
         fost-core-smoke
         fost-datetime-smoke
