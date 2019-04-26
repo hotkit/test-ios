@@ -20,6 +20,8 @@
 		CE6D02722258B6A000907F2B /* libboost_date_time.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE6D02132258856800907F2B /* libboost_date_time.a */; };
 		CE9ABCD22270174C000D4CA2 /* libfost-sinks-d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9ABCCD22701637000D4CA2 /* libfost-sinks-d.a */; };
 		CED512052272E848003B245A /* libfost-swift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CED512042272E848003B245A /* libfost-swift.a */; };
+		CED512092272F8A4003B245A /* libcrypto++.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CED512082272F872003B245A /* libcrypto++.a */; };
+		CED5120A2272F8B2003B245A /* libfost-crypto-d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9ABCC122701637000D4CA2 /* libfost-crypto-d.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -282,6 +284,13 @@
 			remoteGlobalIDString = B9687DF3DE384928B7E989BF;
 			remoteInfo = "fost-swift";
 		};
+		CED512072272F872003B245A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE6D01F32258856800907F2B /* test-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BED9E2B27C154A4A8A78573A;
+			remoteInfo = "crypto++";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -304,9 +313,11 @@
 			files = (
 				CE6D024D2258A1C000907F2B /* libnative.a in Frameworks */,
 				CE6D024722589C2000907F2B /* libfost-core-d.a in Frameworks */,
+				CED5120A2272F8B2003B245A /* libfost-crypto-d.a in Frameworks */,
 				CE9ABCD22270174C000D4CA2 /* libfost-sinks-d.a in Frameworks */,
 				CED512052272E848003B245A /* libfost-swift.a in Frameworks */,
 				CE6D02712258B68600907F2B /* libfost-test-d.a in Frameworks */,
+				CED512092272F8A4003B245A /* libcrypto++.a in Frameworks */,
 				CE6D02722258B6A000907F2B /* libboost_date_time.a in Frameworks */,
 				CE6D024822589C2E00907F2B /* libboost_filesystem.a in Frameworks */,
 				CE6D024622589AE100907F2B /* libc++.tbd in Frameworks */,
@@ -364,6 +375,7 @@
 				CE6D02272258856800907F2B /* cord-run-test-unicode-encoding */,
 				CE6D02292258856800907F2B /* cord-run-test-unicode-string */,
 				CE6D022B2258856800907F2B /* cord-run-test-unicode-view */,
+				CED512082272F872003B245A /* libcrypto++.a */,
 				CE6D021B2258856800907F2B /* f5-cord-fuzz-u8loader */,
 				CE9ABCBB22701637000D4CA2 /* libfost-cli-d.a */,
 				CE9ABCBD22701637000D4CA2 /* libfost-cli-smoke.a */,
@@ -713,6 +725,13 @@
 			remoteRef = CED512032272E848003B245A /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		CED512082272F872003B245A /* libcrypto++.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libcrypto++.a";
+			remoteRef = CED512072272F872003B245A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -897,6 +916,7 @@
 				);
 				OTHER_LDFLAGS = (
 					"-Wl,-force_load,${BUILT_PRODUCTS_DIR}/libfost-core-smoke.a",
+					"-Wl,-force_load,${BUILT_PRODUCTS_DIR}/libfost-crypto-smoke.a",
 					"-Wl,-force_load,${BUILT_PRODUCTS_DIR}/libfost-datetime-smoke.a",
 					"-Wl,-force_load,${BUILT_PRODUCTS_DIR}/libfost-sinks-smoke.a",
 				);
@@ -922,6 +942,7 @@
 				);
 				OTHER_LDFLAGS = (
 					"-Wl,-force_load,${BUILT_PRODUCTS_DIR}/libfost-core-smoke.a",
+					"-Wl,-force_load,${BUILT_PRODUCTS_DIR}/libfost-crypto-smoke.a",
 					"-Wl,-force_load,${BUILT_PRODUCTS_DIR}/libfost-datetime-smoke.a",
 					"-Wl,-force_load,${BUILT_PRODUCTS_DIR}/libfost-sinks-smoke.a",
 				);

@@ -22,6 +22,7 @@ add_custom_target(check)
 
 # Other required build files
 add_subdirectory(boost)
+add_subdirectory(crypto)
 add_subdirectory(fost/cord)
 add_subdirectory(fost/threading)
 add_subdirectory(fost/base)
@@ -34,9 +35,12 @@ target_link_libraries(native
 
         ## These libraries are all for the actual tests
         ## Other applications would normally only use
-        ## the libraries listed above
+        ## the libraries listed above.
         fost-test
+        ## These must all be explicitly added as whole
+        ## archive targets in the workspace iOS target.
         fost-core-smoke
+        fost-crypto-smoke
         fost-datetime-smoke
         fost-sinks-smoke
     )
