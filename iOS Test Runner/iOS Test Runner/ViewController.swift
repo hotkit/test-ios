@@ -17,12 +17,16 @@ class ViewController: UIViewController {
         run_tests();
         resultsBox.text = test_results()
     }
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         resultsBox.text = test_results()
         resultsBox.isEditable = false
+
+        // Find a suitable location for the test data files
+        let tmpdir = NSTemporaryDirectory()
+        set_string_setting("NSTemporaryDirectory", "Log sinks", "Log files directory", tmpdir + "/logs")
     }
 
 

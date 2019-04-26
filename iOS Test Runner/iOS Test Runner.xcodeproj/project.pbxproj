@@ -19,6 +19,7 @@
 		CE6D02712258B68600907F2B /* libfost-test-d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE6D02702258B68600907F2B /* libfost-test-d.a */; };
 		CE6D02722258B6A000907F2B /* libboost_date_time.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE6D02132258856800907F2B /* libboost_date_time.a */; };
 		CE9ABCD22270174C000D4CA2 /* libfost-sinks-d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9ABCCD22701637000D4CA2 /* libfost-sinks-d.a */; };
+		CED512052272E848003B245A /* libfost-swift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CED512042272E848003B245A /* libfost-swift.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -274,6 +275,13 @@
 			remoteGlobalIDString = 519C56B9A87C4416B69CEFFA;
 			remoteInfo = "fost-sinks-smoke-check";
 		};
+		CED512032272E848003B245A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE6D01F32258856800907F2B /* test-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B9687DF3DE384928B7E989BF;
+			remoteInfo = "fost-swift";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -297,6 +305,7 @@
 				CE6D024D2258A1C000907F2B /* libnative.a in Frameworks */,
 				CE6D024722589C2000907F2B /* libfost-core-d.a in Frameworks */,
 				CE9ABCD22270174C000D4CA2 /* libfost-sinks-d.a in Frameworks */,
+				CED512052272E848003B245A /* libfost-swift.a in Frameworks */,
 				CE6D02712258B68600907F2B /* libfost-test-d.a in Frameworks */,
 				CE6D02722258B6A000907F2B /* libboost_date_time.a in Frameworks */,
 				CE6D024822589C2E00907F2B /* libboost_filesystem.a in Frameworks */,
@@ -371,6 +380,7 @@
 				CE9ABCCD22701637000D4CA2 /* libfost-sinks-d.a */,
 				CE9ABCCF22701637000D4CA2 /* libfost-sinks-smoke.a */,
 				CE9ABCD122701637000D4CA2 /* fost-sinks-smoke-check */,
+				CED512042272E848003B245A /* libfost-swift.a */,
 				CE6D02702258B68600907F2B /* libfost-test-d.a */,
 				CE6D024122589A0900907F2B /* libnative.a */,
 				CE6D022D2258856800907F2B /* libthreading-headers-tests.a */,
@@ -694,6 +704,13 @@
 			fileType = "compiled.mach-o.executable";
 			path = "fost-sinks-smoke-check";
 			remoteRef = CE9ABCD022701637000D4CA2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CED512042272E848003B245A /* libfost-swift.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libfost-swift.a";
+			remoteRef = CED512032272E848003B245A /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
