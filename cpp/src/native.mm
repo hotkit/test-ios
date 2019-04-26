@@ -20,7 +20,7 @@ namespace {
 }
 
 extern "C" NSString * _Nonnull test_results() {
-    return [NSString stringWithUTF8String:g_results.c_str()];
+    return [NSString stringWithUTF8String:g_results.shrink_to_fit()];
 }
 
 
@@ -36,33 +36,4 @@ extern "C" void run_tests() {
         ss << e.what() << '\n';
         g_results = "FAILURE via escaped exception\n\n" + ss.str();
     }
-}
-
-
-/**
-    The following work around a link problem with Boost filesystem
-    for iOS.
- */
-
-
-#include <dirent.h>
-
-
-extern "C" {
-
-
-    DIR *opendir$INODE64(char *dirname) {
-        return opendir(dirname);
-    }
-
-    struct dirent * readdir$INODE64(DIR *dirp) {
-        return readdir(dirp);
-    }
-    
-    
-    int readdir_r$INODE64(DIR *dirp, struct dirent *entry, struct dirent **result) {
-        return readdir_r(dirp, entry, result);
-    }
-
-    
 }
