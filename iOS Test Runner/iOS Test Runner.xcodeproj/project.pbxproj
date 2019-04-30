@@ -7,18 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BDFCF324A75C52E759558E32 /* Pods_iOS_Test_Runner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B3F03ADE1597827D340F651 /* Pods_iOS_Test_Runner.framework */; };
 		CE58B8EA2255A13A002BD250 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE58B8E92255A13A002BD250 /* AppDelegate.swift */; };
 		CE58B8EC2255A13A002BD250 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE58B8EB2255A13A002BD250 /* ViewController.swift */; };
 		CE58B8EF2255A13A002BD250 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE58B8ED2255A13A002BD250 /* Main.storyboard */; };
 		CE58B8F12255A13C002BD250 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE58B8F02255A13C002BD250 /* Assets.xcassets */; };
 		CE58B8F42255A13C002BD250 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE58B8F22255A13C002BD250 /* LaunchScreen.storyboard */; };
-		CE6D024622589AE100907F2B /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CE6D024522589AE100907F2B /* libc++.tbd */; };
 		CE6D024722589C2000907F2B /* libfost-core-d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE6D02352258856800907F2B /* libfost-core-d.a */; };
 		CE6D024822589C2E00907F2B /* libboost_filesystem.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE6D02152258856800907F2B /* libboost_filesystem.a */; };
 		CE6D024D2258A1C000907F2B /* libnative.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE6D024122589A0900907F2B /* libnative.a */; };
 		CE6D02712258B68600907F2B /* libfost-test-d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE6D02702258B68600907F2B /* libfost-test-d.a */; };
 		CE6D02722258B6A000907F2B /* libboost_date_time.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE6D02132258856800907F2B /* libboost_date_time.a */; };
 		CE9ABCD22270174C000D4CA2 /* libfost-sinks-d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9ABCCD22701637000D4CA2 /* libfost-sinks-d.a */; };
+		CEC0550722786B9400CA4141 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC0550622786B9400CA4141 /* libc++.tbd */; };
 		CED512052272E848003B245A /* libfost-swift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CED512042272E848003B245A /* libfost-swift.a */; };
 		CED512092272F8A4003B245A /* libcrypto++.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CED512082272F872003B245A /* libcrypto++.a */; };
 		CED5120A2272F8B2003B245A /* libfost-crypto-d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9ABCC122701637000D4CA2 /* libfost-crypto-d.a */; };
@@ -183,7 +184,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = CE6D01F32258856800907F2B /* test-ios.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = 8601D5E7011B410F871E60D0;
+			remoteGlobalIDString = 29DE06CC9262485185EAF998;
 			remoteInfo = native;
 		};
 		CE6D026F2258B68600907F2B /* PBXContainerItemProxy */ = {
@@ -277,6 +278,27 @@
 			remoteGlobalIDString = 519C56B9A87C4416B69CEFFA;
 			remoteInfo = "fost-sinks-smoke-check";
 		};
+		CEC054D7227867FB00CA4141 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEC054D2227867FB00CA4141 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D02DC735BA085E31C4E468B065FBB8F0;
+			remoteInfo = BoringSSL;
+		};
+		CEC054D9227867FB00CA4141 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEC054D2227867FB00CA4141 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0240017B11CECB51A83FFBF564D916F4;
+			remoteInfo = "Pods-iOS Test Runner";
+		};
+		CEC055042278683400CA4141 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEC054D2227867FB00CA4141 /* Pods.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 5393BE21DF26FC154506D23DDA69027B;
+			remoteInfo = BoringSSL;
+		};
 		CED512032272E848003B245A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = CE6D01F32258856800907F2B /* test-ios.xcodeproj */;
@@ -294,6 +316,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5ACDC17FBF620C61E5AA0BB2 /* Pods-iOS Test Runner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS Test Runner.debug.xcconfig"; path = "Target Support Files/Pods-iOS Test Runner/Pods-iOS Test Runner.debug.xcconfig"; sourceTree = "<group>"; };
+		8B3F03ADE1597827D340F651 /* Pods_iOS_Test_Runner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Test_Runner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE58B8E62255A13A002BD250 /* iOS Test Runner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Test Runner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE58B8E92255A13A002BD250 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE58B8EB2255A13A002BD250 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -303,7 +327,9 @@
 		CE58B8F52255A13C002BD250 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE6D01EE2258819C00907F2B /* iOS Test Runner-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS Test Runner-Bridging-Header.h"; sourceTree = "<group>"; };
 		CE6D01F32258856800907F2B /* test-ios.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "test-ios.xcodeproj"; path = "../cpp/fost/test-ios.xcodeproj"; sourceTree = "<group>"; };
-		CE6D024522589AE100907F2B /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		CEC054D2227867FB00CA4141 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
+		CEC0550622786B9400CA4141 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		E4CEBFACC0E1364F67A9B6DB /* Pods-iOS Test Runner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS Test Runner.release.xcconfig"; path = "Target Support Files/Pods-iOS Test Runner/Pods-iOS Test Runner.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -320,13 +346,23 @@
 				CED512092272F8A4003B245A /* libcrypto++.a in Frameworks */,
 				CE6D02722258B6A000907F2B /* libboost_date_time.a in Frameworks */,
 				CE6D024822589C2E00907F2B /* libboost_filesystem.a in Frameworks */,
-				CE6D024622589AE100907F2B /* libc++.tbd in Frameworks */,
+				BDFCF324A75C52E759558E32 /* Pods_iOS_Test_Runner.framework in Frameworks */,
+				CEC0550722786B9400CA4141 /* libc++.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		565BF9ACCBA93ECC5C1A5CE9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5ACDC17FBF620C61E5AA0BB2 /* Pods-iOS Test Runner.debug.xcconfig */,
+				E4CEBFACC0E1364F67A9B6DB /* Pods-iOS Test Runner.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		CE58B8DD2255A13A002BD250 = {
 			isa = PBXGroup;
 			children = (
@@ -334,6 +370,7 @@
 				CE58B8E72255A13A002BD250 /* Products */,
 				CE6D01F32258856800907F2B /* test-ios.xcodeproj */,
 				CE6D023A225885A000907F2B /* Frameworks */,
+				565BF9ACCBA93ECC5C1A5CE9 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -406,9 +443,20 @@
 		CE6D023A225885A000907F2B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CE6D024522589AE100907F2B /* libc++.tbd */,
+				CEC0550622786B9400CA4141 /* libc++.tbd */,
+				CEC054D2227867FB00CA4141 /* Pods.xcodeproj */,
+				8B3F03ADE1597827D340F651 /* Pods_iOS_Test_Runner.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEC054D3227867FB00CA4141 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEC054D8227867FB00CA4141 /* openssl.framework */,
+				CEC054DA227867FB00CA4141 /* Pods_iOS_Test_Runner.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -418,13 +466,16 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE58B8F82255A13C002BD250 /* Build configuration list for PBXNativeTarget "iOS Test Runner" */;
 			buildPhases = (
+				F6C243D24A6196A05E40565D /* [CP] Check Pods Manifest.lock */,
 				CE58B8E22255A13A002BD250 /* Sources */,
 				CE58B8E32255A13A002BD250 /* Frameworks */,
 				CE58B8E42255A13A002BD250 /* Resources */,
+				D07177FE74B26DCC2B3812A3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				CEC055052278683400CA4141 /* PBXTargetDependency */,
 				CE6D024F2258A1DE00907F2B /* PBXTargetDependency */,
 			);
 			name = "iOS Test Runner";
@@ -460,6 +511,10 @@
 			productRefGroup = CE58B8E72255A13A002BD250 /* Products */;
 			projectDirPath = "";
 			projectReferences = (
+				{
+					ProductGroup = CEC054D3227867FB00CA4141 /* Products */;
+					ProjectRef = CEC054D2227867FB00CA4141 /* Pods.xcodeproj */;
+				},
 				{
 					ProductGroup = CE6D01F42258856800907F2B /* Products */;
 					ProjectRef = CE6D01F32258856800907F2B /* test-ios.xcodeproj */;
@@ -718,6 +773,20 @@
 			remoteRef = CE9ABCD022701637000D4CA2 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		CEC054D8227867FB00CA4141 /* openssl.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = openssl.framework;
+			remoteRef = CEC054D7227867FB00CA4141 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CEC054DA227867FB00CA4141 /* Pods_iOS_Test_Runner.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Pods_iOS_Test_Runner.framework;
+			remoteRef = CEC054D9227867FB00CA4141 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		CED512042272E848003B245A /* libfost-swift.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -747,6 +816,53 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		D07177FE74B26DCC2B3812A3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOS Test Runner/Pods-iOS Test Runner-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOS Test Runner/Pods-iOS Test Runner-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6C243D24A6196A05E40565D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOS Test Runner-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CE58B8E22255A13A002BD250 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -764,6 +880,11 @@
 			isa = PBXTargetDependency;
 			name = native;
 			targetProxy = CE6D024E2258A1DE00907F2B /* PBXContainerItemProxy */;
+		};
+		CEC055052278683400CA4141 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BoringSSL;
+			targetProxy = CEC055042278683400CA4141 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -905,6 +1026,7 @@
 		};
 		CE58B8F92255A13C002BD250 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5ACDC17FBF620C61E5AA0BB2 /* Pods-iOS Test Runner.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -914,12 +1036,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				OTHER_LDFLAGS = (
-					"-Wl,-force_load,${BUILT_PRODUCTS_DIR}/libfost-core-smoke.a",
-					"-Wl,-force_load,${BUILT_PRODUCTS_DIR}/libfost-crypto-smoke.a",
-					"-Wl,-force_load,${BUILT_PRODUCTS_DIR}/libfost-datetime-smoke.a",
-					"-Wl,-force_load,${BUILT_PRODUCTS_DIR}/libfost-sinks-smoke.a",
-				);
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = "HotNow.iOS-Test-Runner";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "iOS Test Runner/iOS Test Runner-Bridging-Header.h";
@@ -931,6 +1048,7 @@
 		};
 		CE58B8FA2255A13C002BD250 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4CEBFACC0E1364F67A9B6DB /* Pods-iOS Test Runner.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -940,12 +1058,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				OTHER_LDFLAGS = (
-					"-Wl,-force_load,${BUILT_PRODUCTS_DIR}/libfost-core-smoke.a",
-					"-Wl,-force_load,${BUILT_PRODUCTS_DIR}/libfost-crypto-smoke.a",
-					"-Wl,-force_load,${BUILT_PRODUCTS_DIR}/libfost-datetime-smoke.a",
-					"-Wl,-force_load,${BUILT_PRODUCTS_DIR}/libfost-sinks-smoke.a",
-				);
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = "HotNow.iOS-Test-Runner";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "iOS Test Runner/iOS Test Runner-Bridging-Header.h";
