@@ -19,6 +19,7 @@
 		CE6D02712258B68600907F2B /* libfost-test-d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE6D02702258B68600907F2B /* libfost-test-d.a */; };
 		CE6D02722258B6A000907F2B /* libboost_date_time.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE6D02132258856800907F2B /* libboost_date_time.a */; };
 		CE9ABCD22270174C000D4CA2 /* libfost-sinks-d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9ABCCD22701637000D4CA2 /* libfost-sinks-d.a */; };
+		CEBCA2F9227A7F0A0050100B /* libfost-inet-d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CEBCA2F4227A7F0A0050100B /* libfost-inet-d.a */; };
 		CEC0550722786B9400CA4141 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC0550622786B9400CA4141 /* libc++.tbd */; };
 		CED512052272E848003B245A /* libfost-swift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CED512042272E848003B245A /* libfost-swift.a */; };
 		CED512092272F8A4003B245A /* libcrypto++.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CED512082272F872003B245A /* libcrypto++.a */; };
@@ -278,6 +279,34 @@
 			remoteGlobalIDString = 519C56B9A87C4416B69CEFFA;
 			remoteInfo = "fost-sinks-smoke-check";
 		};
+		CEBCA2F1227A7F0A0050100B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE6D01F32258856800907F2B /* test-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3611B9E291D64304ABF8DE0D;
+			remoteInfo = "fost-hod";
+		};
+		CEBCA2F3227A7F0A0050100B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE6D01F32258856800907F2B /* test-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE96D03DFA4D457B8D881005;
+			remoteInfo = "fost-inet";
+		};
+		CEBCA2F5227A7F0A0050100B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE6D01F32258856800907F2B /* test-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 561F21FA7DE0425D98C42674;
+			remoteInfo = "fost-inet-smoke";
+		};
+		CEBCA2F7227A7F0A0050100B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE6D01F32258856800907F2B /* test-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2C14819E24C84D3F8406ED9E;
+			remoteInfo = "fost-inet-smoke-check";
+		};
 		CEC054D7227867FB00CA4141 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = CEC054D2227867FB00CA4141 /* Pods.xcodeproj */;
@@ -340,6 +369,7 @@
 				CE6D024D2258A1C000907F2B /* libnative.a in Frameworks */,
 				CE6D024722589C2000907F2B /* libfost-core-d.a in Frameworks */,
 				CED5120A2272F8B2003B245A /* libfost-crypto-d.a in Frameworks */,
+				CEBCA2F9227A7F0A0050100B /* libfost-inet-d.a in Frameworks */,
 				CE9ABCD22270174C000D4CA2 /* libfost-sinks-d.a in Frameworks */,
 				CED512052272E848003B245A /* libfost-swift.a in Frameworks */,
 				CE6D02712258B68600907F2B /* libfost-test-d.a in Frameworks */,
@@ -426,6 +456,10 @@
 				CE9ABCC722701637000D4CA2 /* libfost-datetime-d.a */,
 				CE9ABCC922701637000D4CA2 /* libfost-datetime-smoke.a */,
 				CE9ABCCB22701637000D4CA2 /* fost-datetime-smoke-check */,
+				CEBCA2F2227A7F0A0050100B /* libfost-hod-d.a */,
+				CEBCA2F4227A7F0A0050100B /* libfost-inet-d.a */,
+				CEBCA2F6227A7F0A0050100B /* libfost-inet-smoke.a */,
+				CEBCA2F8227A7F0A0050100B /* fost-inet-smoke-check */,
 				CE9ABCCD22701637000D4CA2 /* libfost-sinks-d.a */,
 				CE9ABCCF22701637000D4CA2 /* libfost-sinks-smoke.a */,
 				CE9ABCD122701637000D4CA2 /* fost-sinks-smoke-check */,
@@ -773,6 +807,34 @@
 			remoteRef = CE9ABCD022701637000D4CA2 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		CEBCA2F2227A7F0A0050100B /* libfost-hod-d.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libfost-hod-d.a";
+			remoteRef = CEBCA2F1227A7F0A0050100B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CEBCA2F4227A7F0A0050100B /* libfost-inet-d.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libfost-inet-d.a";
+			remoteRef = CEBCA2F3227A7F0A0050100B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CEBCA2F6227A7F0A0050100B /* libfost-inet-smoke.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libfost-inet-smoke.a";
+			remoteRef = CEBCA2F5227A7F0A0050100B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CEBCA2F8227A7F0A0050100B /* fost-inet-smoke-check */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "fost-inet-smoke-check";
+			remoteRef = CEBCA2F7227A7F0A0050100B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		CEC054D8227867FB00CA4141 /* openssl.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
@@ -1037,12 +1099,13 @@
 					"@executable_path/Frameworks",
 				);
 				OTHER_LDFLAGS = (
-                                        "$(inherited)",
-                                        "-Wl,-force_load,${BUILT_PRODUCTS_DIR}/libfost-core-smoke.a",
-                                        "-Wl,-force_load,${BUILT_PRODUCTS_DIR}/libfost-crypto-smoke.a",
-                                        "-Wl,-force_load,${BUILT_PRODUCTS_DIR}/libfost-datetime-smoke.a",
-                                        "-Wl,-force_load,${BUILT_PRODUCTS_DIR}/libfost-sinks-smoke.a",
-                                );
+					"$(inherited)",
+					"-Wl,-force_load,${BUILT_PRODUCTS_DIR}/libfost-core-smoke.a",
+					"-Wl,-force_load,${BUILT_PRODUCTS_DIR}/libfost-crypto-smoke.a",
+					"-Wl,-force_load,${BUILT_PRODUCTS_DIR}/libfost-datetime-smoke.a",
+					"-Wl,-force_load,${BUILT_PRODUCTS_DIR}/libfost-inet-smoke.a",
+					"-Wl,-force_load,${BUILT_PRODUCTS_DIR}/libfost-sinks-smoke.a",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "HotNow.iOS-Test-Runner";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "iOS Test Runner/iOS Test Runner-Bridging-Header.h";
@@ -1065,12 +1128,13 @@
 					"@executable_path/Frameworks",
 				);
 				OTHER_LDFLAGS = (
-                                        "$(inherited)",
-                                        "-Wl,-force_load,${BUILT_PRODUCTS_DIR}/libfost-core-smoke.a",
-                                        "-Wl,-force_load,${BUILT_PRODUCTS_DIR}/libfost-crypto-smoke.a",
-                                        "-Wl,-force_load,${BUILT_PRODUCTS_DIR}/libfost-datetime-smoke.a",
-                                        "-Wl,-force_load,${BUILT_PRODUCTS_DIR}/libfost-sinks-smoke.a",
-                                );
+					"$(inherited)",
+					"-Wl,-force_load,${BUILT_PRODUCTS_DIR}/libfost-core-smoke.a",
+					"-Wl,-force_load,${BUILT_PRODUCTS_DIR}/libfost-crypto-smoke.a",
+					"-Wl,-force_load,${BUILT_PRODUCTS_DIR}/libfost-datetime-smoke.a",
+					"-Wl,-force_load,${BUILT_PRODUCTS_DIR}/libfost-inet-smoke.a",
+					"-Wl,-force_load,${BUILT_PRODUCTS_DIR}/libfost-sinks-smoke.a",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "HotNow.iOS-Test-Runner";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "iOS Test Runner/iOS Test Runner-Bridging-Header.h";

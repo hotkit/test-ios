@@ -26,7 +26,10 @@ add_subdirectory(crypto)
 add_subdirectory(fost/cord)
 add_subdirectory(fost/threading)
 add_subdirectory(fost/base)
+add_subdirectory(fost/internet)
 add_subdirectory(fost-swift)
+
+target_include_directories(fost-inet PUBLIC "../../iOS Test Runner/Pods/BoringSSL/include")
 
 # The bridging library
 add_library(native STATIC native.mm)
@@ -42,5 +45,6 @@ target_link_libraries(native
         fost-core-smoke
         fost-crypto-smoke
         fost-datetime-smoke
+        fost-inet-smoke
         fost-sinks-smoke
     )
