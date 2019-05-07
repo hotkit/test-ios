@@ -27,6 +27,8 @@ class ViewController: UIViewController {
         // Find a suitable location for the test data files
         let tmpdir = NSTemporaryDirectory()
         set_string_setting("NSTemporaryDirectory", "Log sinks", "Log files directory", tmpdir + "/logs")
+        set_string_setting("NSTemporaryDirectory", "JSON DB", "Default file location", tmpdir + "/db")
+        set_string_setting("NSTemporaryDirectory", "Tests", "Test file folder", tmpdir + "/tests")
     }
 
 
