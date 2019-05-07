@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		BDFCF324A75C52E759558E32 /* Pods_iOS_Test_Runner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B3F03ADE1597827D340F651 /* Pods_iOS_Test_Runner.framework */; };
+		CE35BCE422812ACE00726B18 /* libbeanbag-d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE35BCC322812ACE00726B18 /* libbeanbag-d.a */; };
+		CE35BD2722812FC000726B18 /* libf5-json-schema.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE35BCCF22812ACE00726B18 /* libf5-json-schema.a */; };
+		CE35BD2922812FCE00726B18 /* libfost-jsondb-d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE35BCD122812ACE00726B18 /* libfost-jsondb-d.a */; };
 		CE58B8EA2255A13A002BD250 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE58B8E92255A13A002BD250 /* AppDelegate.swift */; };
 		CE58B8EC2255A13A002BD250 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE58B8EB2255A13A002BD250 /* ViewController.swift */; };
 		CE58B8EF2255A13A002BD250 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE58B8ED2255A13A002BD250 /* Main.storyboard */; };
@@ -27,6 +30,125 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		CE35BCC222812ACE00726B18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE6D01F32258856800907F2B /* test-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 197DE5E82CC04323BFB6C609;
+			remoteInfo = beanbag;
+		};
+		CE35BCC422812ACE00726B18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE6D01F32258856800907F2B /* test-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BF2B89F0BEBF46FFA59C9699;
+			remoteInfo = "beanbag-smoke";
+		};
+		CE35BCC622812ACE00726B18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE6D01F32258856800907F2B /* test-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 844D00D667754E0881B6C128;
+			remoteInfo = "beanbag-smoke-check";
+		};
+		CE35BCC822812ACE00726B18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE6D01F32258856800907F2B /* test-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 55B8201A00B2417F92DBEF4D;
+			remoteInfo = "beanbag-views";
+		};
+		CE35BCCA22812ACE00726B18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE6D01F32258856800907F2B /* test-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E798F4144AAA494495D7AD47;
+			remoteInfo = "beanbag-views-smoke";
+		};
+		CE35BCCC22812ACE00726B18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE6D01F32258856800907F2B /* test-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0ACD8FEC906446C78022A295;
+			remoteInfo = "beanbag-views-smoke-check";
+		};
+		CE35BCCE22812ACE00726B18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE6D01F32258856800907F2B /* test-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F0109F9C3D1A414DAE144423;
+			remoteInfo = "f5-json-schema";
+		};
+		CE35BCD022812ACE00726B18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE6D01F32258856800907F2B /* test-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B469F51429E343219C19BCCD;
+			remoteInfo = "fost-jsondb";
+		};
+		CE35BCD222812ACE00726B18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE6D01F32258856800907F2B /* test-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0EC816AE9A4B43E8B2264E0E;
+			remoteInfo = "fost-jsondb-smoke";
+		};
+		CE35BCD422812ACE00726B18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE6D01F32258856800907F2B /* test-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 89CCD33EAFE240B18F3C4ACA;
+			remoteInfo = "fost-jsondb-smoke-check";
+		};
+		CE35BCD622812ACE00726B18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE6D01F32258856800907F2B /* test-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A3CEC7139ED94728AA73F480;
+			remoteInfo = "fost-urlhandler";
+		};
+		CE35BCD822812ACE00726B18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE6D01F32258856800907F2B /* test-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2A0D9B2C2ED547A7AA6BDAD1;
+			remoteInfo = "fost-urlhandler-smoke";
+		};
+		CE35BCDA22812ACE00726B18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE6D01F32258856800907F2B /* test-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7513B1EF27314C89A6FF84EB;
+			remoteInfo = "fost-urlhandler-smoke-check";
+		};
+		CE35BCDC22812ACE00726B18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE6D01F32258856800907F2B /* test-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 715807D45D8D4AC58AE2D51D;
+			remoteInfo = "fost-webserver";
+		};
+		CE35BCDE22812ACE00726B18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE6D01F32258856800907F2B /* test-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 47DB04FE21C24126A47FF677;
+			remoteInfo = "fost-webtestrunner";
+		};
+		CE35BCE022812ACE00726B18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE6D01F32258856800907F2B /* test-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DFBECDF99A754F2CABBF1026;
+			remoteInfo = "json-schema-headers-tests";
+		};
+		CE35BCE222812ACE00726B18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE6D01F32258856800907F2B /* test-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 446DFD6D173A4F489637D6D1;
+			remoteInfo = "json-schema-validator";
+		};
 		CE6D02102258856800907F2B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = CE6D01F32258856800907F2B /* test-ios.xcodeproj */;
@@ -185,7 +307,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = CE6D01F32258856800907F2B /* test-ios.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = 29DE06CC9262485185EAF998;
+			remoteGlobalIDString = 1B90AFAB500C48768D643118;
 			remoteInfo = native;
 		};
 		CE6D026F2258B68600907F2B /* PBXContainerItemProxy */ = {
@@ -366,7 +488,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE35BD2922812FCE00726B18 /* libfost-jsondb-d.a in Frameworks */,
+				CE35BD2722812FC000726B18 /* libf5-json-schema.a in Frameworks */,
 				CE6D024D2258A1C000907F2B /* libnative.a in Frameworks */,
+				CE35BCE422812ACE00726B18 /* libbeanbag-d.a in Frameworks */,
 				CE6D024722589C2000907F2B /* libfost-core-d.a in Frameworks */,
 				CED5120A2272F8B2003B245A /* libfost-crypto-d.a in Frameworks */,
 				CEBCA2F9227A7F0A0050100B /* libfost-inet-d.a in Frameworks */,
@@ -429,6 +554,12 @@
 		CE6D01F42258856800907F2B /* Products */ = {
 			isa = PBXGroup;
 			children = (
+				CE35BCC322812ACE00726B18 /* libbeanbag-d.a */,
+				CE35BCC522812ACE00726B18 /* libbeanbag-smoke.a */,
+				CE35BCC722812ACE00726B18 /* beanbag-smoke-check */,
+				CE35BCC922812ACE00726B18 /* libbeanbag-views-d.a */,
+				CE35BCCB22812ACE00726B18 /* libbeanbag-views-smoke.a */,
+				CE35BCCD22812ACE00726B18 /* beanbag-views-smoke-check */,
 				CE6D02112258856800907F2B /* libboost_chrono.a */,
 				CE6D02132258856800907F2B /* libboost_date_time.a */,
 				CE6D02152258856800907F2B /* libboost_filesystem.a */,
@@ -444,6 +575,7 @@
 				CE6D022B2258856800907F2B /* cord-run-test-unicode-view */,
 				CED512082272F872003B245A /* libcrypto++.a */,
 				CE6D021B2258856800907F2B /* f5-cord-fuzz-u8loader */,
+				CE35BCCF22812ACE00726B18 /* libf5-json-schema.a */,
 				CE9ABCBB22701637000D4CA2 /* libfost-cli-d.a */,
 				CE9ABCBD22701637000D4CA2 /* libfost-cli-smoke.a */,
 				CE9ABCBF22701637000D4CA2 /* fost-cli-smoke-check */,
@@ -460,11 +592,21 @@
 				CEBCA2F4227A7F0A0050100B /* libfost-inet-d.a */,
 				CEBCA2F6227A7F0A0050100B /* libfost-inet-smoke.a */,
 				CEBCA2F8227A7F0A0050100B /* fost-inet-smoke-check */,
+				CE35BCD122812ACE00726B18 /* libfost-jsondb-d.a */,
+				CE35BCD322812ACE00726B18 /* libfost-jsondb-smoke.a */,
+				CE35BCD522812ACE00726B18 /* fost-jsondb-smoke-check */,
 				CE9ABCCD22701637000D4CA2 /* libfost-sinks-d.a */,
 				CE9ABCCF22701637000D4CA2 /* libfost-sinks-smoke.a */,
 				CE9ABCD122701637000D4CA2 /* fost-sinks-smoke-check */,
 				CED512042272E848003B245A /* libfost-swift.a */,
 				CE6D02702258B68600907F2B /* libfost-test-d.a */,
+				CE35BCD722812ACE00726B18 /* libfost-urlhandler-d.a */,
+				CE35BCD922812ACE00726B18 /* libfost-urlhandler-smoke.a */,
+				CE35BCDB22812ACE00726B18 /* fost-urlhandler-smoke-check */,
+				CE35BCDD22812ACE00726B18 /* fost-webserver */,
+				CE35BCDF22812ACE00726B18 /* libfost-webtestrunner-d.a */,
+				CE35BCE122812ACE00726B18 /* libjson-schema-headers-tests.a */,
+				CE35BCE322812ACE00726B18 /* json-schema-validator */,
 				CE6D024122589A0900907F2B /* libnative.a */,
 				CE6D022D2258856800907F2B /* libthreading-headers-tests.a */,
 				CE6D022F2258856800907F2B /* threading-run-test-limiters-unlimited-blocking */,
@@ -562,6 +704,125 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		CE35BCC322812ACE00726B18 /* libbeanbag-d.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libbeanbag-d.a";
+			remoteRef = CE35BCC222812ACE00726B18 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE35BCC522812ACE00726B18 /* libbeanbag-smoke.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libbeanbag-smoke.a";
+			remoteRef = CE35BCC422812ACE00726B18 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE35BCC722812ACE00726B18 /* beanbag-smoke-check */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "beanbag-smoke-check";
+			remoteRef = CE35BCC622812ACE00726B18 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE35BCC922812ACE00726B18 /* libbeanbag-views-d.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libbeanbag-views-d.a";
+			remoteRef = CE35BCC822812ACE00726B18 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE35BCCB22812ACE00726B18 /* libbeanbag-views-smoke.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libbeanbag-views-smoke.a";
+			remoteRef = CE35BCCA22812ACE00726B18 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE35BCCD22812ACE00726B18 /* beanbag-views-smoke-check */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "beanbag-views-smoke-check";
+			remoteRef = CE35BCCC22812ACE00726B18 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE35BCCF22812ACE00726B18 /* libf5-json-schema.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libf5-json-schema.a";
+			remoteRef = CE35BCCE22812ACE00726B18 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE35BCD122812ACE00726B18 /* libfost-jsondb-d.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libfost-jsondb-d.a";
+			remoteRef = CE35BCD022812ACE00726B18 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE35BCD322812ACE00726B18 /* libfost-jsondb-smoke.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libfost-jsondb-smoke.a";
+			remoteRef = CE35BCD222812ACE00726B18 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE35BCD522812ACE00726B18 /* fost-jsondb-smoke-check */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "fost-jsondb-smoke-check";
+			remoteRef = CE35BCD422812ACE00726B18 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE35BCD722812ACE00726B18 /* libfost-urlhandler-d.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libfost-urlhandler-d.a";
+			remoteRef = CE35BCD622812ACE00726B18 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE35BCD922812ACE00726B18 /* libfost-urlhandler-smoke.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libfost-urlhandler-smoke.a";
+			remoteRef = CE35BCD822812ACE00726B18 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE35BCDB22812ACE00726B18 /* fost-urlhandler-smoke-check */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "fost-urlhandler-smoke-check";
+			remoteRef = CE35BCDA22812ACE00726B18 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE35BCDD22812ACE00726B18 /* fost-webserver */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "fost-webserver";
+			remoteRef = CE35BCDC22812ACE00726B18 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE35BCDF22812ACE00726B18 /* libfost-webtestrunner-d.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libfost-webtestrunner-d.a";
+			remoteRef = CE35BCDE22812ACE00726B18 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE35BCE122812ACE00726B18 /* libjson-schema-headers-tests.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libjson-schema-headers-tests.a";
+			remoteRef = CE35BCE022812ACE00726B18 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE35BCE322812ACE00726B18 /* json-schema-validator */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "json-schema-validator";
+			remoteRef = CE35BCE222812ACE00726B18 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		CE6D02112258856800907F2B /* libboost_chrono.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -1094,16 +1355,23 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "iOS Test Runner/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
+					"-Wl,-force_load,${BUILT_PRODUCTS_DIR}/libbeanbag-views-d.a",
+					"-Wl,-force_load,${BUILT_PRODUCTS_DIR}/libf5-json-schema.a",
+					"-Wl,-force_load,${BUILT_PRODUCTS_DIR}/libfost-urlhandler-d.a",
+					"-Wl,-force_load,${BUILT_PRODUCTS_DIR}/libbeanbag-smoke.a",
+					"-Wl,-force_load,${BUILT_PRODUCTS_DIR}/libbeanbag-views-smoke.a",
 					"-Wl,-force_load,${BUILT_PRODUCTS_DIR}/libfost-core-smoke.a",
 					"-Wl,-force_load,${BUILT_PRODUCTS_DIR}/libfost-crypto-smoke.a",
 					"-Wl,-force_load,${BUILT_PRODUCTS_DIR}/libfost-datetime-smoke.a",
 					"-Wl,-force_load,${BUILT_PRODUCTS_DIR}/libfost-inet-smoke.a",
+					"-Wl,-force_load,${BUILT_PRODUCTS_DIR}/libfost-jsondb-smoke.a",
 					"-Wl,-force_load,${BUILT_PRODUCTS_DIR}/libfost-sinks-smoke.a",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "HotNow.iOS-Test-Runner";
@@ -1123,16 +1391,23 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "iOS Test Runner/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
+					"-Wl,-force_load,${BUILT_PRODUCTS_DIR}/libbeanbag-views.a",
+					"-Wl,-force_load,${BUILT_PRODUCTS_DIR}/libf5-json-schema.a",
+					"-Wl,-force_load,${BUILT_PRODUCTS_DIR}/libfost-urlhandler.a",
+					"-Wl,-force_load,${BUILT_PRODUCTS_DIR}/libbeanbag-smoke.a",
+					"-Wl,-force_load,${BUILT_PRODUCTS_DIR}/libbeanbag-views-smoke.a",
 					"-Wl,-force_load,${BUILT_PRODUCTS_DIR}/libfost-core-smoke.a",
 					"-Wl,-force_load,${BUILT_PRODUCTS_DIR}/libfost-crypto-smoke.a",
 					"-Wl,-force_load,${BUILT_PRODUCTS_DIR}/libfost-datetime-smoke.a",
 					"-Wl,-force_load,${BUILT_PRODUCTS_DIR}/libfost-inet-smoke.a",
+					"-Wl,-force_load,${BUILT_PRODUCTS_DIR}/libfost-jsondb-smoke.a",
 					"-Wl,-force_load,${BUILT_PRODUCTS_DIR}/libfost-sinks-smoke.a",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "HotNow.iOS-Test-Runner";

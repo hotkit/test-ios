@@ -26,8 +26,13 @@ add_subdirectory(crypto)
 add_subdirectory(fost/cord)
 add_subdirectory(fost/threading)
 add_subdirectory(fost/base)
-add_subdirectory(fost/internet)
 add_subdirectory(fost-swift)
+
+# Optional libraries depending on what you're doing
+add_subdirectory(fost/beanbag)
+add_subdirectory(fost/internet)
+add_subdirectory(fost/json-schema)
+add_subdirectory(fost/web)
 
 target_include_directories(fost-inet PUBLIC "../../iOS Test Runner/Pods/BoringSSL/include")
 
@@ -42,9 +47,12 @@ target_link_libraries(native
         fost-test
         ## These must all be explicitly added as whole
         ## archive targets in the workspace iOS target.
+        beanbag-smoke
+        beanbag-views-smoke
         fost-core-smoke
         fost-crypto-smoke
         fost-datetime-smoke
         fost-inet-smoke
+        fost-jsondb-smoke
         fost-sinks-smoke
     )
