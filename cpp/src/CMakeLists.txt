@@ -34,7 +34,9 @@ add_subdirectory(fost/beanbag)
 add_subdirectory(fost/internet)
 add_subdirectory(fost/json-schema)
 add_subdirectory(fost/web)
+add_subdirectory(mdca-platform/mdca-common)
 
+# Needed to bind the Pod BoringSSL headers to fost-inet which uses them
 target_include_directories(fost-inet PUBLIC "../../iOS Test Runner/Pods/BoringSSL/include")
 
 # The bridging library
@@ -57,4 +59,5 @@ target_link_libraries(native
         fost-jsondb-smoke
         fost-s3-smoke
         fost-sinks-smoke
+        mdca-common-smoke
     )
