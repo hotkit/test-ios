@@ -11,6 +11,7 @@
 		CE35BCE422812ACE00726B18 /* libbeanbag-d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE35BCC322812ACE00726B18 /* libbeanbag-d.a */; };
 		CE35BD2722812FC000726B18 /* libf5-json-schema.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE35BCCF22812ACE00726B18 /* libf5-json-schema.a */; };
 		CE35BD2922812FCE00726B18 /* libfost-jsondb-d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE35BCD122812ACE00726B18 /* libfost-jsondb-d.a */; };
+		CE35BD7722825A0500726B18 /* libfost-s3-d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE35BD7222825A0500726B18 /* libfost-s3-d.a */; };
 		CE58B8EA2255A13A002BD250 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE58B8E92255A13A002BD250 /* AppDelegate.swift */; };
 		CE58B8EC2255A13A002BD250 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE58B8EB2255A13A002BD250 /* ViewController.swift */; };
 		CE58B8EF2255A13A002BD250 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE58B8ED2255A13A002BD250 /* Main.storyboard */; };
@@ -148,6 +149,27 @@
 			proxyType = 2;
 			remoteGlobalIDString = 446DFD6D173A4F489637D6D1;
 			remoteInfo = "json-schema-validator";
+		};
+		CE35BD7122825A0500726B18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE6D01F32258856800907F2B /* test-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 460C3E65BB0C484491475C0C;
+			remoteInfo = "fost-s3";
+		};
+		CE35BD7322825A0500726B18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE6D01F32258856800907F2B /* test-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D74595DCE57B4E4089ED0BD8;
+			remoteInfo = "fost-s3-smoke";
+		};
+		CE35BD7522825A0500726B18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE6D01F32258856800907F2B /* test-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 14EFF873C285454EBCB7AC29;
+			remoteInfo = "fost-s3-smoke-check";
 		};
 		CE6D02102258856800907F2B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -488,13 +510,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE35BD2922812FCE00726B18 /* libfost-jsondb-d.a in Frameworks */,
-				CE35BD2722812FC000726B18 /* libf5-json-schema.a in Frameworks */,
 				CE6D024D2258A1C000907F2B /* libnative.a in Frameworks */,
 				CE35BCE422812ACE00726B18 /* libbeanbag-d.a in Frameworks */,
+				CE35BD2722812FC000726B18 /* libf5-json-schema.a in Frameworks */,
 				CE6D024722589C2000907F2B /* libfost-core-d.a in Frameworks */,
 				CED5120A2272F8B2003B245A /* libfost-crypto-d.a in Frameworks */,
 				CEBCA2F9227A7F0A0050100B /* libfost-inet-d.a in Frameworks */,
+				CE35BD2922812FCE00726B18 /* libfost-jsondb-d.a in Frameworks */,
+				CE35BD7722825A0500726B18 /* libfost-s3-d.a in Frameworks */,
 				CE9ABCD22270174C000D4CA2 /* libfost-sinks-d.a in Frameworks */,
 				CED512052272E848003B245A /* libfost-swift.a in Frameworks */,
 				CE6D02712258B68600907F2B /* libfost-test-d.a in Frameworks */,
@@ -595,6 +618,9 @@
 				CE35BCD122812ACE00726B18 /* libfost-jsondb-d.a */,
 				CE35BCD322812ACE00726B18 /* libfost-jsondb-smoke.a */,
 				CE35BCD522812ACE00726B18 /* fost-jsondb-smoke-check */,
+				CE35BD7222825A0500726B18 /* libfost-s3-d.a */,
+				CE35BD7422825A0500726B18 /* libfost-s3-smoke.a */,
+				CE35BD7622825A0500726B18 /* fost-s3-smoke-check */,
 				CE9ABCCD22701637000D4CA2 /* libfost-sinks-d.a */,
 				CE9ABCCF22701637000D4CA2 /* libfost-sinks-smoke.a */,
 				CE9ABCD122701637000D4CA2 /* fost-sinks-smoke-check */,
@@ -821,6 +847,27 @@
 			fileType = "compiled.mach-o.executable";
 			path = "json-schema-validator";
 			remoteRef = CE35BCE222812ACE00726B18 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE35BD7222825A0500726B18 /* libfost-s3-d.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libfost-s3-d.a";
+			remoteRef = CE35BD7122825A0500726B18 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE35BD7422825A0500726B18 /* libfost-s3-smoke.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libfost-s3-smoke.a";
+			remoteRef = CE35BD7322825A0500726B18 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE35BD7622825A0500726B18 /* fost-s3-smoke-check */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "fost-s3-smoke-check";
+			remoteRef = CE35BD7522825A0500726B18 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		CE6D02112258856800907F2B /* libboost_chrono.a */ = {
@@ -1372,6 +1419,7 @@
 					"-Wl,-force_load,${BUILT_PRODUCTS_DIR}/libfost-datetime-smoke.a",
 					"-Wl,-force_load,${BUILT_PRODUCTS_DIR}/libfost-inet-smoke.a",
 					"-Wl,-force_load,${BUILT_PRODUCTS_DIR}/libfost-jsondb-smoke.a",
+					"-Wl,-force_load,${BUILT_PRODUCTS_DIR}/libfost-s3-smoke.a",
 					"-Wl,-force_load,${BUILT_PRODUCTS_DIR}/libfost-sinks-smoke.a",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "HotNow.iOS-Test-Runner";
@@ -1408,6 +1456,7 @@
 					"-Wl,-force_load,${BUILT_PRODUCTS_DIR}/libfost-datetime-smoke.a",
 					"-Wl,-force_load,${BUILT_PRODUCTS_DIR}/libfost-inet-smoke.a",
 					"-Wl,-force_load,${BUILT_PRODUCTS_DIR}/libfost-jsondb-smoke.a",
+					"-Wl,-force_load,${BUILT_PRODUCTS_DIR}/libfost-s3-smoke.a",
 					"-Wl,-force_load,${BUILT_PRODUCTS_DIR}/libfost-sinks-smoke.a",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "HotNow.iOS-Test-Runner";

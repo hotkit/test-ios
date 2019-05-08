@@ -29,6 +29,7 @@ add_subdirectory(fost/base)
 add_subdirectory(fost-swift)
 
 # Optional libraries depending on what you're doing
+add_subdirectory(fost/aws)
 add_subdirectory(fost/beanbag)
 add_subdirectory(fost/internet)
 add_subdirectory(fost/json-schema)
@@ -54,5 +55,6 @@ target_link_libraries(native
         fost-datetime-smoke
         fost-inet-smoke
         fost-jsondb-smoke
+        fost-s3-smoke
         fost-sinks-smoke
     )
