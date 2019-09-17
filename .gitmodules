@@ -1,6 +1,6 @@
 [submodule "fost-android-ndk"]
 	path = fost-android-ndk
-	url = git@github.com:KayEss/fost-android-ndk.git
+	url = git@github.com:hotkit/fost-android-ndk.git
 [submodule "fost-swift"]
 	path = fost-swift
-	url = git@github.com:KayEss/fost-swift.git
+	url = git@github.com:hotkit/fost-swift.git
