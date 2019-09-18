@@ -1,5 +1,5 @@
 [submodule "fost-android-ndk"]
-	path = fost-android-ndk
+	path = fost-mobile
 	url = git@github.com:hotkit/fost-mobile.git
 [submodule "fost-swift"]
 	path = fost-swift
