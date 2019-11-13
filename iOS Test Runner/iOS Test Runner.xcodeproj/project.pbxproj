@@ -192,6 +192,118 @@
 			remoteGlobalIDString = 89A90AD982FD4451BE39C9BB;
 			remoteInfo = "mdca-common-smoke-check";
 		};
+		CE6AB00F237A9FFF009AFA02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE6D01F32258856800907F2B /* test-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F199DCFE7E7C42C0B08E7ABE;
+			remoteInfo = "cord-run-test-unicode-u16string";
+		};
+		CE6AB011237A9FFF009AFA02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE6D01F32258856800907F2B /* test-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D69E6D4A0564C5FAD50B592;
+			remoteInfo = "cord-run-test-unicode-u32string";
+		};
+		CE6AB013237A9FFF009AFA02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE6D01F32258856800907F2B /* test-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 07D59EBE625A43C59483FD7C;
+			remoteInfo = "cord-run-test-unicode-u8string";
+		};
+		CE6AB015237A9FFF009AFA02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE6D01F32258856800907F2B /* test-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C7FB316B90F542DF820F81ED;
+			remoteInfo = "fost-beanbag-views-test";
+		};
+		CE6AB017237A9FFF009AFA02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE6D01F32258856800907F2B /* test-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C81C58B01A734E3DA4F3D6C4;
+			remoteInfo = "fost-beanbag-views-test-check";
+		};
+		CE6AB019237A9FFF009AFA02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE6D01F32258856800907F2B /* test-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C92A28934C8B420FA81B7FA4;
+			remoteInfo = "fost-core-test";
+		};
+		CE6AB01B237A9FFF009AFA02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE6D01F32258856800907F2B /* test-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 218BA28AB41F4659A6B651B8;
+			remoteInfo = "fost-core-test-check";
+		};
+		CE6AB01D237A9FFF009AFA02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE6D01F32258856800907F2B /* test-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D1BC7B07541E45A1B06DC021;
+			remoteInfo = "fost-core-test-fileio";
+		};
+		CE6AB01F237A9FFF009AFA02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE6D01F32258856800907F2B /* test-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FD00B1F5D4644B11B862F8FD;
+			remoteInfo = "fost-inet-test";
+		};
+		CE6AB021237A9FFF009AFA02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE6D01F32258856800907F2B /* test-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 86C6BD6EABCC4126B667E813;
+			remoteInfo = "fost-inet-test-check";
+		};
+		CE6AB023237A9FFF009AFA02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE6D01F32258856800907F2B /* test-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 635581F55D9B4ABBABF1E06B;
+			remoteInfo = "fost-jsondb-test-backup";
+		};
+		CE6AB025237A9FFF009AFA02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE6D01F32258856800907F2B /* test-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6085627AC9B841A7928501A9;
+			remoteInfo = "fost-jsondb-test-file";
+		};
+		CE6AB027237A9FFF009AFA02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE6D01F32258856800907F2B /* test-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B036BDCFC6364CCB821ABF2E;
+			remoteInfo = "fost-urlhandler-test";
+		};
+		CE6AB029237A9FFF009AFA02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE6D01F32258856800907F2B /* test-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F7A8E65F91EC47059D51F3A8;
+			remoteInfo = "fost-urlhandler-test-check";
+		};
+		CE6AB02B237A9FFF009AFA02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE6D01F32258856800907F2B /* test-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EF0DCAE3E68A4F9C8D0F32FE;
+			remoteInfo = "json-schema-testsuite";
+		};
+		CE6AB02D237A9FFF009AFA02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE6D01F32258856800907F2B /* test-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 65623BCF9DFF41F4A98F2571;
+			remoteInfo = "test-ssl";
+		};
 		CE6D02102258856800907F2B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = CE6D01F32258856800907F2B /* test-ios.xcodeproj */;
@@ -276,13 +388,6 @@
 			remoteGlobalIDString = 6313A532239648D88535218E;
 			remoteInfo = "cord-run-test-unicode-encoding";
 		};
-		CE6D02282258856800907F2B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CE6D01F32258856800907F2B /* test-ios.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D52136EE1F6841F7AAFA343B;
-			remoteInfo = "cord-run-test-unicode-string";
-		};
 		CE6D022A2258856800907F2B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = CE6D01F32258856800907F2B /* test-ios.xcodeproj */;
@@ -350,7 +455,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = CE6D01F32258856800907F2B /* test-ios.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = 1B90AFAB500C48768D643118;
+			remoteGlobalIDString = 1C97436BEF644174BD866AA1;
 			remoteInfo = native;
 		};
 		CE6D026F2258B68600907F2B /* PBXContainerItemProxy */ = {
@@ -615,17 +720,24 @@
 				CE6D02232258856800907F2B /* cord-run-test-memory */,
 				CE6D02252258856800907F2B /* cord-run-test-unicode-check_valid */,
 				CE6D02272258856800907F2B /* cord-run-test-unicode-encoding */,
-				CE6D02292258856800907F2B /* cord-run-test-unicode-string */,
+				CE6AB010237A9FFF009AFA02 /* cord-run-test-unicode-u16string */,
+				CE6AB012237A9FFF009AFA02 /* cord-run-test-unicode-u32string */,
+				CE6AB014237A9FFF009AFA02 /* cord-run-test-unicode-u8string */,
 				CE6D022B2258856800907F2B /* cord-run-test-unicode-view */,
 				CED512082272F872003B245A /* libcrypto++.a */,
 				CE6D021B2258856800907F2B /* f5-cord-fuzz-u8loader */,
 				CE35BCCF22812ACE00726B18 /* libf5-json-schema.a */,
+				CE6AB016237A9FFF009AFA02 /* libfost-beanbag-views-test.a */,
+				CE6AB018237A9FFF009AFA02 /* fost-beanbag-views-test-check */,
 				CE9ABCBB22701637000D4CA2 /* libfost-cli-d.a */,
 				CE9ABCBD22701637000D4CA2 /* libfost-cli-smoke.a */,
 				CE9ABCBF22701637000D4CA2 /* fost-cli-smoke-check */,
 				CE6D02352258856800907F2B /* libfost-core-d.a */,
 				CE6D02372258856800907F2B /* libfost-core-smoke.a */,
 				CE6D02392258856800907F2B /* fost-core-smoke-check */,
+				CE6AB01A237A9FFF009AFA02 /* libfost-core-test.a */,
+				CE6AB01C237A9FFF009AFA02 /* fost-core-test-check */,
+				CE6AB01E237A9FFF009AFA02 /* fost-core-test-fileio */,
 				CE9ABCC122701637000D4CA2 /* libfost-crypto-d.a */,
 				CE9ABCC322701637000D4CA2 /* libfost-crypto-smoke.a */,
 				CE9ABCC522701637000D4CA2 /* fost-crypto-smoke-check */,
@@ -636,9 +748,13 @@
 				CEBCA2F4227A7F0A0050100B /* libfost-inet-d.a */,
 				CEBCA2F6227A7F0A0050100B /* libfost-inet-smoke.a */,
 				CEBCA2F8227A7F0A0050100B /* fost-inet-smoke-check */,
+				CE6AB020237A9FFF009AFA02 /* libfost-inet-test.a */,
+				CE6AB022237A9FFF009AFA02 /* fost-inet-test-check */,
 				CE35BCD122812ACE00726B18 /* libfost-jsondb-d.a */,
 				CE35BCD322812ACE00726B18 /* libfost-jsondb-smoke.a */,
 				CE35BCD522812ACE00726B18 /* fost-jsondb-smoke-check */,
+				CE6AB024237A9FFF009AFA02 /* fost-jsondb-test-backup */,
+				CE6AB026237A9FFF009AFA02 /* fost-jsondb-test-file */,
 				CE35BD7222825A0500726B18 /* libfost-s3-d.a */,
 				CE35BD7422825A0500726B18 /* libfost-s3-smoke.a */,
 				CE35BD7622825A0500726B18 /* fost-s3-smoke-check */,
@@ -650,14 +766,18 @@
 				CE35BCD722812ACE00726B18 /* libfost-urlhandler-d.a */,
 				CE35BCD922812ACE00726B18 /* libfost-urlhandler-smoke.a */,
 				CE35BCDB22812ACE00726B18 /* fost-urlhandler-smoke-check */,
+				CE6AB028237A9FFF009AFA02 /* libfost-urlhandler-test.a */,
+				CE6AB02A237A9FFF009AFA02 /* fost-urlhandler-test-check */,
 				CE35BCDD22812ACE00726B18 /* fost-webserver */,
 				CE35BCDF22812ACE00726B18 /* libfost-webtestrunner-d.a */,
 				CE35BCE122812ACE00726B18 /* libjson-schema-headers-tests.a */,
+				CE6AB02C237A9FFF009AFA02 /* json-schema-testsuite */,
 				CE35BCE322812ACE00726B18 /* json-schema-validator */,
 				CE35BDC222825F6500726B18 /* libmdca-common-d.a */,
 				CE35BDC422825F6500726B18 /* libmdca-common-smoke.a */,
 				CE35BDC622825F6500726B18 /* mdca-common-smoke-check */,
 				CE6D024122589A0900907F2B /* libnative.a */,
+				CE6AB02E237A9FFF009AFA02 /* test-ssl */,
 				CE6D022D2258856800907F2B /* libthreading-headers-tests.a */,
 				CE6D022F2258856800907F2B /* threading-run-test-limiters-unlimited-blocking */,
 				CE6D02312258856800907F2B /* threading-run-test-limiters-unlimited-nonblocking */,
@@ -915,6 +1035,118 @@
 			remoteRef = CE35BDC522825F6500726B18 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		CE6AB010237A9FFF009AFA02 /* cord-run-test-unicode-u16string */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "cord-run-test-unicode-u16string";
+			remoteRef = CE6AB00F237A9FFF009AFA02 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE6AB012237A9FFF009AFA02 /* cord-run-test-unicode-u32string */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "cord-run-test-unicode-u32string";
+			remoteRef = CE6AB011237A9FFF009AFA02 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE6AB014237A9FFF009AFA02 /* cord-run-test-unicode-u8string */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "cord-run-test-unicode-u8string";
+			remoteRef = CE6AB013237A9FFF009AFA02 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE6AB016237A9FFF009AFA02 /* libfost-beanbag-views-test.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libfost-beanbag-views-test.a";
+			remoteRef = CE6AB015237A9FFF009AFA02 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE6AB018237A9FFF009AFA02 /* fost-beanbag-views-test-check */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "fost-beanbag-views-test-check";
+			remoteRef = CE6AB017237A9FFF009AFA02 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE6AB01A237A9FFF009AFA02 /* libfost-core-test.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libfost-core-test.a";
+			remoteRef = CE6AB019237A9FFF009AFA02 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE6AB01C237A9FFF009AFA02 /* fost-core-test-check */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "fost-core-test-check";
+			remoteRef = CE6AB01B237A9FFF009AFA02 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE6AB01E237A9FFF009AFA02 /* fost-core-test-fileio */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "fost-core-test-fileio";
+			remoteRef = CE6AB01D237A9FFF009AFA02 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE6AB020237A9FFF009AFA02 /* libfost-inet-test.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libfost-inet-test.a";
+			remoteRef = CE6AB01F237A9FFF009AFA02 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE6AB022237A9FFF009AFA02 /* fost-inet-test-check */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "fost-inet-test-check";
+			remoteRef = CE6AB021237A9FFF009AFA02 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE6AB024237A9FFF009AFA02 /* fost-jsondb-test-backup */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "fost-jsondb-test-backup";
+			remoteRef = CE6AB023237A9FFF009AFA02 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE6AB026237A9FFF009AFA02 /* fost-jsondb-test-file */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "fost-jsondb-test-file";
+			remoteRef = CE6AB025237A9FFF009AFA02 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE6AB028237A9FFF009AFA02 /* libfost-urlhandler-test.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libfost-urlhandler-test.a";
+			remoteRef = CE6AB027237A9FFF009AFA02 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE6AB02A237A9FFF009AFA02 /* fost-urlhandler-test-check */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "fost-urlhandler-test-check";
+			remoteRef = CE6AB029237A9FFF009AFA02 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE6AB02C237A9FFF009AFA02 /* json-schema-testsuite */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "json-schema-testsuite";
+			remoteRef = CE6AB02B237A9FFF009AFA02 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE6AB02E237A9FFF009AFA02 /* test-ssl */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "test-ssl";
+			remoteRef = CE6AB02D237A9FFF009AFA02 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		CE6D02112258856800907F2B /* libboost_chrono.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -997,13 +1229,6 @@
 			fileType = "compiled.mach-o.executable";
 			path = "cord-run-test-unicode-encoding";
 			remoteRef = CE6D02262258856800907F2B /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		CE6D02292258856800907F2B /* cord-run-test-unicode-string */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = "cord-run-test-unicode-string";
-			remoteRef = CE6D02282258856800907F2B /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		CE6D022B2258856800907F2B /* cord-run-test-unicode-view */ = {
@@ -1468,6 +1693,8 @@
 					"-Wl,-force_load,${BUILT_PRODUCTS_DIR}/libfost-sinks-smoke.a",
 					"-Wl,-force_load,${BUILT_PRODUCTS_DIR}/libmdca-common-d.a",
 					"-Wl,-force_load,${BUILT_PRODUCTS_DIR}/libmdca-common-smoke.a",
+					"-Wl,-force_load,${BUILT_PRODUCTS_DIR}/libfost-urlhandler-smoke.a",
+					"-Wl,-force_load,${BUILT_PRODUCTS_DIR}/libfost-urlhandler-test.a",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "HotNow.iOS-Test-Runner";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1507,6 +1734,8 @@
 					"-Wl,-force_load,${BUILT_PRODUCTS_DIR}/libfost-sinks-smoke.a",
 					"-Wl,-force_load,${BUILT_PRODUCTS_DIR}/libmdca-common.a",
 					"-Wl,-force_load,${BUILT_PRODUCTS_DIR}/libmdca-common-smoke.a",
+					"-Wl,-force_load,${BUILT_PRODUCTS_DIR}/libfost-urlhandler-smoke.a",
+					"-Wl,-force_load,${BUILT_PRODUCTS_DIR}/libfost-urlhandler-test.a",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "HotNow.iOS-Test-Runner";
 				PRODUCT_NAME = "$(TARGET_NAME)";

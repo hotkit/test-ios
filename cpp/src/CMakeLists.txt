@@ -18,6 +18,7 @@ set(CMAKE_XCODE_ATTRIBUTE_ENABLE_BITCODE "YES")
 ## Most projects won't want to do this. Here we need the test targets
 ## so that we can run them.
 add_custom_target(check)
+add_custom_target(stress)
 
 
 # Other required build files
@@ -59,5 +60,7 @@ target_link_libraries(native
         fost-jsondb-smoke
         fost-s3-smoke
         fost-sinks-smoke
+        fost-urlhandler-smoke
+        fost-urlhandler-test
         mdca-common-smoke
     )
