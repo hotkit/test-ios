@@ -8,6 +8,8 @@
 
 #include "../../iOS Test Runner/iOS Test Runner/iOS Test Runner-Bridging-Header.h"
 #include <fost/test>
+#include <fost/swift/messaging.hpp>
+#include <thread>
 
 
 namespace {
@@ -25,15 +27,20 @@ extern "C" NSString * _Nonnull test_results() {
 
 
 extern "C" void run_tests() {
-    std::stringstream ss;
-    try {
-        fostlib::test::suite::execute(ss);
-        g_results = ss.str();
-        if (g_results.empty()) {
-            g_results = "No tests where found to run";
+    fostlib::display("Tests started...");
+    auto thrd = std::thread{[]() {
+        std::stringstream ss;
+        try {
+            fostlib::test::suite::execute(ss);
+            g_results = ss.str();
+            if (g_results.empty()) {
+                g_results = "No tests where found to run";
+            }
+        } catch ( std::exception &e ) {
+            ss << e.what() << '\n';
+            g_results = "FAILURE via escaped exception\n\n" + ss.str();
         }
-    } catch ( std::exception &e ) {
-        ss << e.what() << '\n';
-        g_results = "FAILURE via escaped exception\n\n" + ss.str();
-    }
+        display(g_results);
+    }};
+    thrd.detach();
 }

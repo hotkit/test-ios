@@ -9,7 +9,8 @@
 
 
 #import <Foundation/Foundation.h>
-#include "fost/swift/settings.hpp"
+#include "fost/swift/messaging.h"
+#include "fost/swift/settings.h"
 
 
 #ifdef __cplusplus
