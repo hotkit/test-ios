@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BDFCF324A75C52E759558E32 /* Pods_iOS_Test_Runner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B3F03ADE1597827D340F651 /* Pods_iOS_Test_Runner.framework */; };
+		CE1BDE2723ACA97E000C0316 /* libf5-makham.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE1BDE2023ACA97E000C0316 /* libf5-makham.a */; };
 		CE35BCE422812ACE00726B18 /* libbeanbag-d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE35BCC322812ACE00726B18 /* libbeanbag-d.a */; };
 		CE35BD2722812FC000726B18 /* libf5-json-schema.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE35BCCF22812ACE00726B18 /* libf5-json-schema.a */; };
 		CE35BD2922812FCE00726B18 /* libfost-jsondb-d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE35BCD122812ACE00726B18 /* libfost-jsondb-d.a */; };
@@ -31,6 +32,34 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		CE1BDE1F23ACA97E000C0316 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE6D01F32258856800907F2B /* test-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 32D127C7468940EA9A19D3A2;
+			remoteInfo = "f5-makham";
+		};
+		CE1BDE2123ACA97E000C0316 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE6D01F32258856800907F2B /* test-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 17F568071A724651BDD69A9A;
+			remoteInfo = "f5-makham-test";
+		};
+		CE1BDE2323ACA97E000C0316 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE6D01F32258856800907F2B /* test-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EB3D7CF1C1924F15839B25AC;
+			remoteInfo = "f5-makham-test-check";
+		};
+		CE1BDE2523ACA97E000C0316 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE6D01F32258856800907F2B /* test-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8E8681A8E518446FBD670AE7;
+			remoteInfo = "makham-headers-tests";
+		};
 		CE35BCC222812ACE00726B18 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = CE6D01F32258856800907F2B /* test-ios.xcodeproj */;
@@ -455,7 +484,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = CE6D01F32258856800907F2B /* test-ios.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = 1C97436BEF644174BD866AA1;
+			remoteGlobalIDString = B08C7A43FC724A708229E537;
 			remoteInfo = native;
 		};
 		CE6D026F2258B68600907F2B /* PBXContainerItemProxy */ = {
@@ -639,6 +668,7 @@
 				CE6D024D2258A1C000907F2B /* libnative.a in Frameworks */,
 				CE35BCE422812ACE00726B18 /* libbeanbag-d.a in Frameworks */,
 				CE35BD2722812FC000726B18 /* libf5-json-schema.a in Frameworks */,
+				CE1BDE2723ACA97E000C0316 /* libf5-makham.a in Frameworks */,
 				CE6D024722589C2000907F2B /* libfost-core-d.a in Frameworks */,
 				CED5120A2272F8B2003B245A /* libfost-crypto-d.a in Frameworks */,
 				CEBCA2F9227A7F0A0050100B /* libfost-inet-d.a in Frameworks */,
@@ -727,6 +757,9 @@
 				CED512082272F872003B245A /* libcrypto++.a */,
 				CE6D021B2258856800907F2B /* f5-cord-fuzz-u8loader */,
 				CE35BCCF22812ACE00726B18 /* libf5-json-schema.a */,
+				CE1BDE2023ACA97E000C0316 /* libf5-makham.a */,
+				CE1BDE2223ACA97E000C0316 /* libf5-makham-test.a */,
+				CE1BDE2423ACA97E000C0316 /* f5-makham-test-check */,
 				CE6AB016237A9FFF009AFA02 /* libfost-beanbag-views-test.a */,
 				CE6AB018237A9FFF009AFA02 /* fost-beanbag-views-test-check */,
 				CE9ABCBB22701637000D4CA2 /* libfost-cli-d.a */,
@@ -773,6 +806,7 @@
 				CE35BCE122812ACE00726B18 /* libjson-schema-headers-tests.a */,
 				CE6AB02C237A9FFF009AFA02 /* json-schema-testsuite */,
 				CE35BCE322812ACE00726B18 /* json-schema-validator */,
+				CE1BDE2623ACA97E000C0316 /* libmakham-headers-tests.a */,
 				CE35BDC222825F6500726B18 /* libmdca-common-d.a */,
 				CE35BDC422825F6500726B18 /* libmdca-common-smoke.a */,
 				CE35BDC622825F6500726B18 /* mdca-common-smoke-check */,
@@ -874,6 +908,34 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		CE1BDE2023ACA97E000C0316 /* libf5-makham.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libf5-makham.a";
+			remoteRef = CE1BDE1F23ACA97E000C0316 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE1BDE2223ACA97E000C0316 /* libf5-makham-test.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libf5-makham-test.a";
+			remoteRef = CE1BDE2123ACA97E000C0316 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE1BDE2423ACA97E000C0316 /* f5-makham-test-check */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "f5-makham-test-check";
+			remoteRef = CE1BDE2323ACA97E000C0316 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE1BDE2623ACA97E000C0316 /* libmakham-headers-tests.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libmakham-headers-tests.a";
+			remoteRef = CE1BDE2523ACA97E000C0316 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		CE35BCC322812ACE00726B18 /* libbeanbag-d.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -1681,6 +1743,7 @@
 					"$(inherited)",
 					"-Wl,-force_load,${BUILT_PRODUCTS_DIR}/libbeanbag-views-d.a",
 					"-Wl,-force_load,${BUILT_PRODUCTS_DIR}/libf5-json-schema.a",
+					"-Wl,-force_load,${BUILT_PRODUCTS_DIR}/libf5-makham-test.a",
 					"-Wl,-force_load,${BUILT_PRODUCTS_DIR}/libfost-urlhandler-d.a",
 					"-Wl,-force_load,${BUILT_PRODUCTS_DIR}/libbeanbag-smoke.a",
 					"-Wl,-force_load,${BUILT_PRODUCTS_DIR}/libbeanbag-views-smoke.a",
@@ -1722,6 +1785,7 @@
 					"$(inherited)",
 					"-Wl,-force_load,${BUILT_PRODUCTS_DIR}/libbeanbag-views.a",
 					"-Wl,-force_load,${BUILT_PRODUCTS_DIR}/libf5-json-schema.a",
+					"-Wl,-force_load,${BUILT_PRODUCTS_DIR}/libf5-makham-test.a",
 					"-Wl,-force_load,${BUILT_PRODUCTS_DIR}/libfost-urlhandler.a",
 					"-Wl,-force_load,${BUILT_PRODUCTS_DIR}/libbeanbag-smoke.a",
 					"-Wl,-force_load,${BUILT_PRODUCTS_DIR}/libbeanbag-views-smoke.a",

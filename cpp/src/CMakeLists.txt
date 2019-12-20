@@ -34,6 +34,7 @@ add_subdirectory(fost/aws)
 add_subdirectory(fost/beanbag)
 add_subdirectory(fost/internet)
 add_subdirectory(fost/json-schema)
+add_subdirectory(fost/makham)
 add_subdirectory(fost/web)
 add_subdirectory(mdca-platform/mdca-common)
 
@@ -53,6 +54,7 @@ target_link_libraries(native
         ## archive targets in the workspace iOS target.
         beanbag-smoke
         beanbag-views-smoke
+        f5-makham-test
         fost-core-smoke
         fost-crypto-smoke
         fost-datetime-smoke
