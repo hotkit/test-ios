@@ -6,9 +6,6 @@ cmake_minimum_required(VERSION 3.12)
 set(BUILD_SHARED_LIBS OFF
     CACHE BOOL "Build shared libraries" FORCE)
 
-## Make sure we end up with C++17
-set(CMAKE_CXX_FLAGS "-std=c++17 ${CMAKE_CXX_FLAGS}")
-
 ## Tell CMake that we are doing iOS development
 set(CMAKE_XCODE_ATTRIBUTE_SDKROOT "iphoneos")
 set(CMAKE_XCODE_ATTRIBUTE_SUPPORTED_PLATFORMS "iphoneos iphonesimulator")
@@ -43,6 +40,7 @@ target_include_directories(fost-inet PUBLIC "../../iOS Test Runner/Pods/BoringSS
 
 # The bridging library
 add_library(native STATIC native.mm)
+target_compile_features(native PRIVATE cxx_std_20)
 target_link_libraries(native
         fost-swift
 

@@ -12,6 +12,14 @@
 #include <thread>
 
 
+struct A {
+    /// clang 10 and above
+    //bool operator<=>(A const &) = default;
+    /// clang 9
+    bool operator<=>(A const &) { return true; }
+};
+
+
 namespace {
     const fostlib::setting<bool> c_verbose(
             "native-lib.cpp",
